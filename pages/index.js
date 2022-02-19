@@ -47,7 +47,7 @@ export default function Home({ data }) {
   );
 }
 
-export const getStaticProps = async () => {
+export const getServerSideProps = async () => {
   const response = await fetch(
     "https://json.extendsclass.com/bin/26301d924e23"
   );
