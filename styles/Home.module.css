@@ -1,3 +1,8 @@
-.logo {
-  clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 0% 100%);
-}
+/* .background {
+  background-image: url(../public/images/for-design/svg2.svg),
+    linear-gradient(rgba(255, 255, 255, 0.52), rgba(255, 255, 255, 0.459));
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  background-attachment: fixed;
+} */

@@ -1,21 +1,57 @@
-/* * {
-  box-sizing: border-box;
-} */
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
-  html,
-  body {
-    @apply box-border;
-  }
-  * {
-    @apply box-border;
-  }
 }
 
 @layer components {
   /* @apply container */
+}
+
+/* Mobile Menu */
+.mobileMenu {
+  width: 2rem;
+  height: 0.2rem;
+  background-color: #fff;
+  position: relative;
+  padding: 2px 0;
+}
+
+.mobileMenuCross {
+  width: 2rem;
+  height: 0.2rem;
+  background-color: #fff;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+.mobileMenuCross::after {
+  position: absolute;
+  content: "";
+  width: inherit;
+  height: inherit;
+  background-color: inherit;
+  display: block;
+  transform: rotate(90deg);
+}
+
+.mobileMenu::before {
+  position: absolute;
+  content: "";
+  width: inherit;
+  height: inherit;
+  background-color: inherit;
+  display: block;
+  top: -0.5rem;
+}
+
+.mobileMenu::after {
+  position: absolute;
+  content: "";
+  width: inherit;
+  height: inherit;
+  background-color: inherit;
+  display: block;
+  top: 0.5rem;
 }
