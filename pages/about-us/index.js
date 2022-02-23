@@ -35,19 +35,19 @@ const Index = ({ data }) => {
             </Tab.List>
 
             <Tab.Panels className="mt-2 ">
-              <Tab.Panel className="flex flex-col items-center md:flex-row md:flex-wrap md:justify-center">
+              <Tab.Panel className="flex flex-col items-start md:flex-row md:flex-wrap md:justify-center">
                 {organizers.map((item) => (
                   <AboutCard key={item.id} item={item} />
                 ))}
               </Tab.Panel>
 
-              <Tab.Panel className="flex flex-col items-center md:flex-row md:flex-wrap md:justify-center">
+              <Tab.Panel className="flex flex-col items-start md:flex-row md:flex-wrap md:justify-center">
                 {trainers.map((item) => (
                   <AboutCard key={item.id} item={item} />
                 ))}
               </Tab.Panel>
 
-              <Tab.Panel className="flex flex-col items-center md:flex-row md:flex-wrap md:justify-center">
+              <Tab.Panel className="flex flex-col items-start md:flex-row md:flex-wrap md:justify-center">
                 {developers.map((item) => (
                   <AboutCard key={item.id} item={item} />
                 ))}
