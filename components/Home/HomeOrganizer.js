@@ -3,9 +3,9 @@ import Image from "next/image";
 
 import { HeadingSecondary } from "../Common/Heading";
 
-import dcOfficeLogo from "../../public/images/administrator.jpg";
-import couLogo from "../../public/images/university.jpg";
-import quantaLogo from "../../public/images/quanta.png";
+import dcOfficeLogo from "../../public/images/homepage/administrator.jpg";
+import couLogo from "../../public/images/homepage/university.jpg";
+import quantaLogo from "../../public/images/homepage/quanta.png";
 
 const HomeOrganizer = () => {
   return (

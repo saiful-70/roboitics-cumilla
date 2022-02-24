@@ -3,8 +3,8 @@ import React from "react";
 
 import { HeadingSecondary } from "../Common/Heading";
 
-import dcImage from "../../public/images/dc.png";
-import vcImage from "../../public/images/cou_vc.jpg";
+import dcImage from "../../public/images/homepage/dc.png";
+import vcImage from "../../public/images/homepage/cou_vc.jpg";
 
 const homeMessageContent = {
   msg1: {

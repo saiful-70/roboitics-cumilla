@@ -13,7 +13,7 @@ const AboutCard = ({ item }) => {
   const { image, name, department, phone, email, social, speciality } = item;
 
   return (
-    <div className="mt-5 flex w-80 flex-col rounded-lg bg-gradient-to-br from-violet-600 to-violet-800 pt-2 md:mx-2 md:w-72 lg:w-72">
+    <div className="mt-5 flex w-72 flex-col rounded-lg bg-gradient-to-br from-violet-600 to-violet-800 pt-2 md:mx-2">
       <div className="mb-3 flex flex-col items-center px-3 font-bold text-white">
         <div className="relative mt-2 h-28 w-28 rounded-full border-4 border-gray-400">
           <Image
@@ -31,7 +31,7 @@ const AboutCard = ({ item }) => {
             ? ""
             : speciality.map((item) => "| " + item + " | ")}
         </p>
-        <h4 className="text-center text-sm">{`DEPT. of ${department}`}</h4>
+        <h4 className="text-center text-sm">{`${department}`}</h4>
       </div>
 
       <div className="flex flex-col items-center rounded-t-3xl rounded-b-lg bg-gradient-to-br from-indigo-900 to-indigo-600 px-3 py-3 shadow-lg shadow-indigo-500">

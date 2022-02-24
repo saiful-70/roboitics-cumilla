@@ -8,7 +8,6 @@ import styles from "../styles/Home.module.css";
 
 import Nav from "../components/Nav/Nav";
 
-import frontPic from "../public/images/front pic.jpeg";
 import HomeCard from "../components/Home/HomeCard";
 import HomeMessages from "../components/Home/HomeMessages";
 import HomeOrganizer from "../components/Home/HomeOrganizer";

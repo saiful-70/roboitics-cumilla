@@ -5,10 +5,15 @@ import Nav from "../../components/Nav/Nav";
 import AboutCard from "../../components/AboutUs/AboutCard";
 import Footer from "../../components/Footer/Footer";
 
-const categories = ["ORGANIZER", "TRAINER & ADVISOR", "DESIGNER & DEVELOPERS"];
+const categories = [
+  "ORGANIZER",
+  "ROBOTICS TEAM",
+  "DEVELOPERS TEAM",
+  "TRAINERS TEAM",
+];
 
 const Index = ({ data }) => {
-  const { organizers, trainers, developers } = data;
+  const { organizers, robotics, trainers, developers } = data;
   return (
     <div className="">
       <Nav />
@@ -35,20 +40,26 @@ const Index = ({ data }) => {
             </Tab.List>
 
             <Tab.Panels className="mt-2 ">
-              <Tab.Panel className="flex flex-col items-start md:flex-row md:flex-wrap md:justify-center">
+              <Tab.Panel className="flex flex-col items-center md:flex-row md:flex-wrap md:items-start md:justify-center">
                 {organizers.map((item) => (
                   <AboutCard key={item.id} item={item} />
                 ))}
               </Tab.Panel>
 
-              <Tab.Panel className="flex flex-col items-start md:flex-row md:flex-wrap md:justify-center">
-                {trainers.map((item) => (
+              <Tab.Panel className="flex flex-col items-center md:flex-row md:flex-wrap md:items-start md:justify-center">
+                {robotics.map((item) => (
                   <AboutCard key={item.id} item={item} />
                 ))}
               </Tab.Panel>
 
-              <Tab.Panel className="flex flex-col items-start md:flex-row md:flex-wrap md:justify-center">
+              <Tab.Panel className="flex flex-col items-center md:flex-row md:flex-wrap md:items-start md:justify-center">
                 {developers.map((item) => (
+                  <AboutCard key={item.id} item={item} />
+                ))}
+              </Tab.Panel>
+
+              <Tab.Panel className="flex flex-col items-center md:flex-row md:flex-wrap md:items-start md:justify-center">
+                {trainers.map((item) => (
                   <AboutCard key={item.id} item={item} />
                 ))}
               </Tab.Panel>

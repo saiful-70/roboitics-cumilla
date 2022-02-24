@@ -55,3 +55,11 @@
   display: block;
   top: 0.5rem;
 }
+
+/* Slider */
+.swiper-button-prev {
+  color: #fff !important;
+}
+.swiper-button-next {
+  color: #fff !important;
+}
