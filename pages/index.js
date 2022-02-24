@@ -36,7 +36,7 @@ export default function Home() {
           <Image src={cover} alt="front-pic" layout="fill" className="" />
         </div>
 
-        <div>
+        {/* <div>
           <Swiper
             modules={[Navigation, Pagination, Autoplay]}
             spaceBetween={50}
@@ -62,7 +62,7 @@ export default function Home() {
             <SwiperSlide>Slide 3</SwiperSlide>
             <SwiperSlide>Slide 4</SwiperSlide>
           </Swiper>
-        </div>
+        </div> */}
 
         <HomeCard />
         <HomeMessages />
