@@ -4,7 +4,13 @@ import { Tab } from "@headlessui/react";
 
 import Head from "next/head";
 import Image from "next/image";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore, { Navigation, Pagination, Autoplay } from "swiper";
+
 import styles from "../styles/Home.module.css";
+// Import Swiper styles
+import "swiper/css/bundle";
 
 import Nav from "../components/Nav/Nav";
 
@@ -12,8 +18,9 @@ import HomeCard from "../components/Home/HomeCard";
 import HomeMessages from "../components/Home/HomeMessages";
 import HomeOrganizer from "../components/Home/HomeOrganizer";
 import Footer from "../components/Footer/Footer";
+import cover from "../public/images/homepage/cover.jpg";
 
-export default function Home({ data }) {
+export default function Home() {
   return (
     <div className={`${styles.background}`}>
       <Head>
@@ -25,9 +32,38 @@ export default function Home({ data }) {
       <Nav />
 
       <main className={`bg-heroSvg container mx-auto mt-5 h-full w-full `}>
-        {/* <div className="h-96 w-96">
-          <Image src={frontPic} alt="front-pic" height={1000} width={1000} />
+        <div className="relative mx-5 my-5 h-40 border-2 shadow-md shadow-gray-600 md:mx-auto md:h-80 lg:w-2/3">
+          <Image src={cover} alt="front-pic" layout="fill" className="" />
+        </div>
+
+        {/* <div>
+          <Swiper
+            modules={[Navigation, Pagination, Autoplay]}
+            spaceBetween={50}
+            slidesPerView={1}
+            navigation
+            autoplay
+            pagination={{ clickable: true }}
+            onSlideChange={() => console.log("slide change")}
+            onSwiper={(swiper) => console.log(swiper)}
+            className="my-10 h-72 w-full bg-blue-500"
+            wrapperTag="ul"
+          >
+            <SwiperSlide>
+              <div className="relative h-full w-full">
+                <Image
+                  alt="slider image"
+                  src="/images/for-design/slide1.jpg"
+                  layout="fill"
+                />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>Slide 2</SwiperSlide>
+            <SwiperSlide>Slide 3</SwiperSlide>
+            <SwiperSlide>Slide 4</SwiperSlide>
+          </Swiper>
         </div> */}
+
         <HomeCard />
         <HomeMessages />
         <HomeOrganizer />
@@ -37,15 +73,15 @@ export default function Home({ data }) {
   );
 }
 
-export const getServerSideProps = async () => {
-  const response = await fetch(
-    "https://json.extendsclass.com/bin/26301d924e23"
-  );
-  const data = await response.json();
+// export const getServerSideProps = async () => {
+//   const response = await fetch(
+//     "https://json.extendsclass.com/bin/26301d924e23"
+//   );
+//   const data = await response.json();
 
-  return {
-    props: {
-      data,
-    },
-  };
-};
+//   return {
+//     props: {
+//       data,
+//     },
+//   };
+// };

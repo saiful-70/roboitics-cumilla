@@ -4,6 +4,9 @@ import Link from "next/link";
 
 import React from "react";
 import NavLists from "./NavLists";
+import Image from "next/image";
+
+import logo from "../../public/images/homepage/logo.jpg";
 
 const Nav = () => {
   const [mobileMenu, setMobileMenu] = useState(true);
@@ -17,7 +20,14 @@ const Nav = () => {
       <h3
         className={`font-weight-bold w-1/6 px-4 py-2 text-center text-3xl text-white`}
       >
-        logo
+        <div className="relative h-16 w-16">
+          <Image
+            alt="logo"
+            src={logo}
+            layout="fill"
+            className=" rounded-full"
+          />
+        </div>
       </h3>
       <div
         className="z-50 cursor-pointer rounded-sm px-2 py-4 shadow-inner  shadow-gray-100 lg:hidden"
