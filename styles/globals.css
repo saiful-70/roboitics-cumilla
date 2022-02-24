@@ -59,7 +59,13 @@
 /* Slider */
 .swiper-button-prev {
   color: #fff !important;
+  font-weight: bold;
 }
 .swiper-button-next {
   color: #fff !important;
+  font-weight: bold;
+}
+.swiper-pagination-bullet {
+  height: 0.5rem !important;
+  width: 0.5rem !important;
 }

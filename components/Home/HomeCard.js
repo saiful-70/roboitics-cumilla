@@ -33,7 +33,7 @@ const homeCardContent = {
 
 const HomeCard = () => {
   return Object.keys(homeCardContent).map((item) => (
-    <div key={item} className="mx-auto w-5/6 py-5 lg:w-1/2">
+    <div key={item} className="mx-auto w-5/6 rounded-md py-5 lg:w-2/3">
       <h3 className=" bg-blue-900 py-2 text-center text-xl font-bold text-white">
         {homeCardContent[item].heading}
       </h3>
