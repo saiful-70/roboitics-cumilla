@@ -31,7 +31,7 @@ export default function Home() {
   return (
     <div className={`${styles.background}`}>
       <Head>
-        <title>Robotics | Cumilla</title>
+        <title>Robotics Cumilla</title>
         <meta
           name="description"
           content="Cumilla Robotics and Programming Club"
