@@ -83,10 +83,7 @@ const Footer = () => {
               </a>
             </Link>
             <Link href="/register">
-              <a
-                href="/register"
-                className="w-min font-bold transition-transform hover:scale-105 hover:underline"
-              >
+              <a className="w-min font-bold transition-transform hover:scale-105 hover:underline">
                 REGISTER
               </a>
             </Link>
