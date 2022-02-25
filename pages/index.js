@@ -49,7 +49,7 @@ export default function Home() {
             navigation
             autoplay
             pagination={{ clickable: true }}
-            className="mt-5 mb-10 h-64 w-full rounded-sm border-2 border-white shadow-md shadow-blue-500 md:h-72 md:w-5/6 lg:h-96"
+            className={`lg:h-100 mt-5 mb-10 h-64 w-full rounded-sm border-2 border-white shadow-md shadow-blue-500 md:h-72 md:w-5/6`}
             wrapperTag="ul"
           >
             <SwiperSlide>

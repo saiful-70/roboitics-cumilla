@@ -9,7 +9,7 @@ const categories = [
   "ORGANIZER",
   "ROBOTICS TEAM",
   "DEVELOPERS TEAM",
-  "TRAINERS TEAM",
+  "PROGRAMMING TRAINERS",
 ];
 
 const Index = ({ data }) => {

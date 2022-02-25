@@ -9,6 +9,9 @@ module.exports = {
         aboutPrimary: "#003555",
         aboutSecondary: "#FBB03B",
       },
+      spacing: {
+        100: "30rem",
+      },
     },
   },
   variants: {
