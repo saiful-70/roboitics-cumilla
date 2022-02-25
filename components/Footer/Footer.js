@@ -67,30 +67,29 @@ const Footer = () => {
         <div className="px-10 pb-3 md:pt-3">
           <h4 className="w-max border-b-2 text-sm font-bold">QUICK LINKS</h4>
           <div className="flex flex-col pt-3 text-sm">
-            <a
-              href="/training-session"
-              className="w-min tracking-wider transition-transform hover:scale-105 hover:underline"
-            >
-              COURSES
-            </a>
-            <a
-              href="/events"
-              className="w-min tracking-wider transition-transform hover:scale-105 hover:underline"
-            >
-              EVENTS
-            </a>
-            <a
-              href="/notices"
-              className="w-min tracking-wider transition-transform hover:scale-105 hover:underline"
-            >
-              NOTICES
-            </a>
-            <a
-              href="/register"
-              className="w-min font-bold tracking-wider transition-transform hover:scale-105 hover:underline"
-            >
-              REGISTER
-            </a>
+            <Link href="/training-session" passHref>
+              <a className="w-min tracking-wider transition-transform hover:scale-105 hover:underline">
+                COURSES
+              </a>
+            </Link>
+            <Link href="/events" passHref>
+              <a className="w-min tracking-wider transition-transform hover:scale-105 hover:underline">
+                EVENTS
+              </a>
+            </Link>
+            <Link href="/notices" passHref>
+              <a className="w-min tracking-wider transition-transform hover:scale-105 hover:underline">
+                NOTICES
+              </a>
+            </Link>
+            <Link href="/register" passHref>
+              <a
+                href="/register"
+                className="w-min font-bold tracking-wider transition-transform hover:scale-105 hover:underline"
+              >
+                REGISTER
+              </a>
+            </Link>
           </div>
         </div>
       </div>
