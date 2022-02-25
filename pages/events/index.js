@@ -8,6 +8,7 @@ import Nav from "../../components/Nav/Nav";
 // Import Swiper styles
 import "swiper/css/bundle";
 import Image from "next/image";
+import Footer from "../../components/Footer/Footer";
 
 SwiperCore.use([Navigation, Pagination, Autoplay]);
 
@@ -15,8 +16,9 @@ const Index = () => {
   return (
     <>
       <Nav />
-      {/* <main className="w-screen">
-        <Swiper
+      <main className="flex h-96 w-screen items-center justify-center py-20">
+        <h1 className="text-3xl font-bold text-gray-400">Comming Soon....</h1>
+        {/* <Swiper
           spaceBetween={50}
           slidesPerView={1}
           navigation
@@ -39,8 +41,9 @@ const Index = () => {
           <SwiperSlide>Slide 2</SwiperSlide>
           <SwiperSlide>Slide 3</SwiperSlide>
           <SwiperSlide>Slide 4</SwiperSlide>
-        </Swiper>
-      </main> */}
+        </Swiper> */}
+      </main>
+      <Footer />
     </>
   );
 };

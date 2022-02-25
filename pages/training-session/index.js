@@ -1,8 +1,8 @@
 import React from "react";
-import Nav from "../../components/Nav/Nav";
 import Footer from "../../components/Footer/Footer";
+import Nav from "../../components/Nav/Nav";
 
-const Index = () => {
+const index = () => {
   return (
     <>
       <Nav />
@@ -14,4 +14,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default index;

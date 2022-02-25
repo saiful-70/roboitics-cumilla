@@ -8,6 +8,7 @@ const navItem = {
   NOTICES: "/notices",
   "TRAINING SESSION": "/training-session",
   "ABOUT US": "/about-us",
+  REGISTER: "/register",
 };
 
 const NavLists = () => {
