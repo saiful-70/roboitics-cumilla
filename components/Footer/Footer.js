@@ -66,26 +66,26 @@ const Footer = () => {
 
         <div className="px-10 pb-3 md:pt-3">
           <h4 className="w-max border-b-2 text-sm font-bold">QUICK LINKS</h4>
-          <div className="flex flex-col pt-3 text-sm">
-            <Link href="/training-session" passHref>
-              <a className="w-min tracking-wider transition-transform hover:scale-105 hover:underline">
+          <div className="flex flex-col pt-3 text-sm font-bold text-gray-300">
+            <Link href="/training-session">
+              <a className="w-min transition-transform hover:scale-105 hover:underline">
                 COURSES
               </a>
             </Link>
-            <Link href="/events" passHref>
-              <a className="w-min tracking-wider transition-transform hover:scale-105 hover:underline">
+            <Link href="/events">
+              <a className="w-min transition-transform hover:scale-105 hover:underline">
                 EVENTS
               </a>
             </Link>
-            <Link href="/notices" passHref>
-              <a className="w-min tracking-wider transition-transform hover:scale-105 hover:underline">
+            <Link href="/notices">
+              <a className="w-min transition-transform hover:scale-105 hover:underline">
                 NOTICES
               </a>
             </Link>
-            <Link href="/register" passHref>
+            <Link href="/register">
               <a
                 href="/register"
-                className="w-min font-bold tracking-wider transition-transform hover:scale-105 hover:underline"
+                className="w-min font-bold transition-transform hover:scale-105 hover:underline"
               >
                 REGISTER
               </a>
@@ -96,7 +96,7 @@ const Footer = () => {
 
       <p className="mt-5 text-center">
         Copyright &copy;
-        <Link href="/" passhref>
+        <Link href="/">
           <a className="text-blue md:text-md text-sm font-bold underline">
             Robotics & Programming Club,
           </a>

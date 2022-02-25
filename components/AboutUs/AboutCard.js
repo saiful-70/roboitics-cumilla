@@ -9,11 +9,15 @@ import { GrMail } from "react-icons/gr";
 import { BsFacebook, BsGithub, BsLinkedin } from "react-icons/bs";
 import { FaDiscord, FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 
+import styles from "../../styles/About.module.css";
+
 const AboutCard = ({ item }) => {
   const { image, name, department, phone, email, social, speciality } = item;
 
   return (
-    <div className="mt-5 flex w-72 flex-col rounded-lg bg-gradient-to-br from-violet-600 to-violet-800 pt-2 md:mx-2">
+    <div
+      className={`${styles.cardBackground} mt-5 flex w-72 flex-col rounded-lg pt-2 md:mx-2`}
+    >
       <div className="mb-3 flex flex-col items-center px-3 font-bold text-white">
         <div className="relative mt-2 h-28 w-28 rounded-full border-4 border-gray-400">
           <Image
@@ -34,22 +38,22 @@ const AboutCard = ({ item }) => {
         <h4 className="text-center text-sm">{`${department}`}</h4>
       </div>
 
-      <div className="flex flex-col items-center rounded-t-3xl rounded-b-lg bg-gradient-to-br from-indigo-900 to-indigo-600 px-3 py-3 shadow-lg shadow-indigo-500">
+      <div className="bg-aboutPrimary flex flex-col items-center rounded-t-3xl rounded-b-lg px-3 py-3 shadow-lg shadow-indigo-500">
         <p className="my-1 flex items-center text-white">
           <span className="mr-2 rounded-full bg-gray-200 p-1">
             <FiPhoneCall className="text-sm font-bold text-black" />
           </span>
-          <span>{phone === "" ? "01XXXXXXXXX" : phone}</span>
+          <span>{phone === "" ? "will be added soon" : phone}</span>
         </p>
         <p className="mb-1 flex flex-wrap items-center justify-center text-white">
           <span className="mr-2 rounded-full bg-gray-200 p-1">
             <GrMail className="text-sm font-bold text-black" />
           </span>
           <span className="text-w text-center">
-            {email === "" ? `email_name@example.com` : email}
+            {email === "" ? "will be added soon" : email}
           </span>
         </p>
-        <div className="my-1 flex w-2/3 rounded-full bg-amber-500">
+        <div className="bg-aboutSecondary my-1 flex w-2/3 rounded-full">
           <span className=" h-full w-1/3 rounded-full bg-gray-200 px-2 py-1">
             Social
           </span>
@@ -69,7 +73,7 @@ const AboutCard = ({ item }) => {
             </a>
             <a
               href={`https://github.com/${social.github}`}
-              className="rounded-full bg-white p-1 transition-transform hover:scale-125"
+              className="rounded-full bg-black p-1 text-white transition-transform hover:scale-125"
             >
               <BsGithub className="" />
             </a>

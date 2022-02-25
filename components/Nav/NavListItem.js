@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-const NavListItem = ({ item, link, onHandleClick }) => {
+const NavListItem = ({ item, link }) => {
   const router = useRouter();
 
   const handleClick = () => {
@@ -17,7 +17,6 @@ const NavListItem = ({ item, link, onHandleClick }) => {
     >
       <Link href={link}>
         <a
-          href={link}
           className={`border-white py-2 px-3 transition-all  hover:border-b-4 ${
             router.asPath === link
               ? "rounded-tl-lg rounded-br-lg bg-white text-blue-900"
