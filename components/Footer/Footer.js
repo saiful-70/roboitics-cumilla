@@ -17,6 +17,7 @@ const Footer = () => {
             alt="front-pic"
             layout="fill"
             className=""
+            priority="true"
           />
         </div>
         <p className="pt-2 text-center font-bold md:text-lg lg:text-xl">
