@@ -1,13 +1,10 @@
 import React from "react";
-import Link from "next/link";
-import { useQuery } from "react-query";
-import { IoIosArrowDroprightCircle } from "react-icons/io";
 
 import Nav from "../../components/Nav/Nav";
 import Footer from "../../components/Footer/Footer";
 import NoticeList from "../../components/Notice/NoticeList";
 
-const Index = () => {
+const Index = ({ data }) => {
   return (
     <>
       <Nav />
@@ -17,7 +14,7 @@ const Index = () => {
           Notice Board(DEMO)
         </h3>
         <div>
-          <NoticeList />
+          <NoticeList data={data} />
         </div>
       </main>
       <Footer />
@@ -27,16 +24,16 @@ const Index = () => {
 
 export default Index;
 
-// export const getServerSideProps = async () => {
-//   const response = await fetch(
-//     "https://json.extendsclass.com/bin/3c3f3c08b23d"
-//   );
+export const getServerSideProps = async () => {
+  const response = await fetch(
+    "https://json.extendsclass.com/bin/3c3f3c08b23d"
+  );
 
-//   const data = await response.json();
+  const data = await response.json();
 
-//   return {
-//     props: {
-//       data,
-//     },
-//   };
-// };
+  return {
+    props: {
+      data,
+    },
+  };
+};
