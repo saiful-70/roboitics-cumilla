@@ -27,7 +27,7 @@ const HomeOrganizer = () => {
 
       <HeadingSecondary text="বাস্তবায়নে সহযোগী" />
       <div className="md:flex md:justify-center">
-        <div>
+        {/* <div>
           <div className="relative mx-auto mt-8 h-48 w-48 md:mr-4">
             <Image
               src={couLogo}
@@ -42,7 +42,7 @@ const HomeOrganizer = () => {
               কুমিল্লা
             </a>
           </h4>
-        </div>
+        </div> */}
 
         <div>
           <div className="relative mx-auto mt-8 h-48 w-48 md:ml-4">
