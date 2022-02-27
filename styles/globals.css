@@ -9,6 +9,19 @@
   /* @apply container */
 }
 
+/* Background */
+.background-all {
+  background-image: linear-gradient(
+      rgba(34, 27, 131, 0.522),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url(../public/images/for-design/svg1.svg);
+  /* background-position: center; */
+  background-size: cover;
+  background-repeat: none;
+  background-attachment: fixed;
+}
+
 /* Mobile Menu */
 .mobileMenu {
   width: 2rem;

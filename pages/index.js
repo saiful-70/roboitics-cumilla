@@ -1,24 +1,19 @@
-import { useState } from "react";
-
-import { Tab } from "@headlessui/react";
-
 import Head from "next/head";
-import Image from "next/image";
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, { Navigation, Pagination, Autoplay } from "swiper";
 
+// Import Home style
 import styles from "../styles/Home.module.css";
-// Import Swiper styles
-import "swiper/css/bundle";
 
+// import custom component
 import Nav from "../components/Nav/Nav";
-
-import HomeCard from "../components/Home/HomeCard";
-import HomeMessages from "../components/Home/HomeMessages";
-import HomeOrganizer from "../components/Home/HomeOrganizer";
+import Card from "../components/Home/Card";
+import Messages from "../components/Home/Message";
+import VideoMessage from "../components/Home/VideoMessage";
+import Organizer from "../components/Home/Organizer";
 import Footer from "../components/Footer/Footer";
+import Slider from "../components/Common/Slider";
+import Marquee from "../components/Common/Merquee";
 
+// images for slider
 const slideImage = [
   "/images/homepage/slide/0.jpg",
   "/images/homepage/slide/1.jpg",
@@ -29,7 +24,7 @@ const slideImage = [
 
 export default function Home() {
   return (
-    <div className={`${styles.background}`}>
+    <div className="background-all">
       <Head>
         <title>Robotics | Programming</title>
         <meta
@@ -40,54 +35,15 @@ export default function Home() {
       </Head>
 
       <Nav />
-
+      <Marquee />
+      <div className=" w-full bg-gray-400/70 py-3 px-5">
+        <Slider slideImage={slideImage} />
+      </div>
       <main className={`bg-heroSvg container mx-auto mt-5 h-full w-full px-5`}>
-        <div>
-          <Swiper
-            modules={[Navigation, Pagination, Autoplay]}
-            slidesPerView={1}
-            navigation
-            autoplay
-            pagination={{ clickable: true }}
-            className={`lg:h-100 mt-5 mb-10 h-64 w-full rounded-sm border-2 border-white shadow-md shadow-blue-500 md:h-72 md:w-5/6`}
-            wrapperTag="ul"
-          >
-            <SwiperSlide>
-              <div className="relative h-full w-full">
-                <Image
-                  src={slideImage[0]}
-                  alt="slider-image"
-                  layout="fill"
-                  className=""
-                />
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="relative h-full w-full">
-                <Image alt="slider image" src={slideImage[1]} layout="fill" />
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="relative h-full w-full">
-                <Image alt="slider image" src={slideImage[2]} layout="fill" />
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="relative h-full w-full">
-                <Image alt="slider image" src={slideImage[3]} layout="fill" />
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="relative h-full w-full">
-                <Image alt="slider image" src={slideImage[4]} layout="fill" />
-              </div>
-            </SwiperSlide>
-          </Swiper>
-        </div>
-
-        <HomeCard />
-        <HomeMessages />
-        <HomeOrganizer />
+        <Card />
+        {/* <VideoMessage /> */}
+        <Messages />
+        <Organizer />
       </main>
       <Footer />
     </div>

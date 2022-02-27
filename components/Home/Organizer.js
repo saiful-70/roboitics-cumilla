@@ -7,7 +7,7 @@ import dcOfficeLogo from "../../public/images/homepage/administrator.jpg";
 import couLogo from "../../public/images/homepage/university.jpg";
 import quantaLogo from "../../public/images/homepage/quanta.png";
 
-const HomeOrganizer = () => {
+const Organizer = () => {
   return (
     <div>
       <HeadingSecondary text="আয়োজনে" />
@@ -62,4 +62,4 @@ const HomeOrganizer = () => {
   );
 };
 
-export default HomeOrganizer;
+export default Organizer;

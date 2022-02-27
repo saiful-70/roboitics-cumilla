@@ -4,7 +4,7 @@ import Nav from "../../components/Nav/Nav";
 import Footer from "../../components/Footer/Footer";
 import NoticeList from "../../components/Notice/NoticeList";
 
-const Index = ({ data }) => {
+const index = ({ data }) => {
   return (
     <>
       <Nav />
@@ -22,7 +22,7 @@ const Index = ({ data }) => {
   );
 };
 
-export default Index;
+export default index;
 
 export const getServerSideProps = async () => {
   const response = await fetch(

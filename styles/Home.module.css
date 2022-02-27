@@ -1,6 +1,6 @@
-.background {
+.background-all {
   background-image: linear-gradient(
-      rgba(50, 100, 238, 0.75),
+      rgba(34, 27, 131, 0.522),
       rgba(255, 255, 255, 0.8)
     ),
     url(../public/images/for-design/svg1.svg);
@@ -8,10 +8,4 @@
   background-size: cover;
   background-repeat: none;
   background-attachment: fixed;
-}
-
-.slideCustomize {
-  @media only screen and (min-width: 1024px) {
-    height: 40rem;
-  }
 }

@@ -12,7 +12,7 @@ const categories = [
   "PROGRAMMING TRAINERS",
 ];
 
-const Index = ({ data }) => {
+const index = ({ data }) => {
   const { organizers, robotics, trainers, developers } = data;
   return (
     <div className="">
@@ -72,7 +72,7 @@ const Index = ({ data }) => {
   );
 };
 
-export default Index;
+export default index;
 
 export const getServerSideProps = async () => {
   const response = await fetch(

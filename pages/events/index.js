@@ -1,51 +1,52 @@
 import React from "react";
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, { Navigation, Pagination, Autoplay } from "swiper";
 
 import Nav from "../../components/Nav/Nav";
-
-// Import Swiper styles
-import "swiper/css/bundle";
-import Image from "next/image";
 import Footer from "../../components/Footer/Footer";
+import Slider from "../../components/Common/Slider";
+import Marquee from "../../components/Common/Merquee";
 
-SwiperCore.use([Navigation, Pagination, Autoplay]);
+const slideImage = [
+  "/images/homepage/slide/0.jpg",
+  "/images/homepage/slide/1.jpg",
+  "/images/homepage/slide/2.jpg",
+  "/images/homepage/slide/3.jpg",
+  "/images/homepage/slide/4.jpg",
+];
 
-const Index = () => {
+const index = () => {
   return (
     <>
       <Nav />
-      <main className="flex h-96 w-screen items-center justify-center py-20">
-        <h1 className="text-3xl font-bold text-gray-400">Comming Soon....</h1>
-        {/* <Swiper
-          spaceBetween={50}
-          slidesPerView={1}
-          navigation
-          autoplay
-          pagination={{ clickable: true }}
-          onSlideChange={() => console.log("slide change")}
-          onSwiper={(swiper) => console.log(swiper)}
-          className="h-72 w-full bg-blue-500"
-          wrapperTag="ul"
-        >
-          <SwiperSlide>
-            <div className="h-full w-full">
-              <Image
-                alt="slider image"
-                src="/images/for-design/slide1.jpg"
-                layout="fill"
-              />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>Slide 2</SwiperSlide>
-          <SwiperSlide>Slide 3</SwiperSlide>
-          <SwiperSlide>Slide 4</SwiperSlide>
-        </Swiper> */}
+      <Marquee />
+      <main className="container mx-auto py-10">
+        {/* <h1 className="text-3xl font-bold text-gray-400">Comming Soon....</h1> */}
+        <h3 className="mx-auto mb-5 w-max border-b-4 px-10 py-1 text-center text-3xl text-gray-700">
+          Our Events and Activities
+        </h3>
+        <div className="px-5 pt-10 text-xl font-bold">
+          <h3 className="mx-auto mb-5 w-max border-b-2 border-dotted border-gray-500 text-gray-600">
+            জেলা প্রসাশকের কার্যালয়ে রোবোটিক্স ক্লাস
+          </h3>
+          <Slider slideImage={slideImage} />
+        </div>
+
+        <div className="px-5 pt-10 text-xl font-bold">
+          <h3 className="mx-auto mb-5 w-max border-b-2 border-dotted border-gray-500 text-gray-600">
+            ফ্যাবল্যাব এক্টিভিটিজ
+          </h3>
+          <Slider slideImage={slideImage} />
+        </div>
+
+        <div className="px-5 pt-10 text-xl font-bold">
+          <h3 className="mx-auto mb-5 w-max border-b-2 border-dotted border-gray-500 text-gray-600">
+            ফ্যাবল্যাবে কাজ করছে শিক্ষার্থী এবং ট্রেইনার
+          </h3>
+          <Slider slideImage={slideImage} />
+        </div>
       </main>
       <Footer />
     </>
   );
 };
 
-export default Index;
+export default index;

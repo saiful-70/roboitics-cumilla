@@ -4,7 +4,7 @@ import { Dialog, Transition } from "@headlessui/react";
 import Footer from "../../components/Footer/Footer";
 import Nav from "../../components/Nav/Nav";
 
-const Index = () => {
+const index = () => {
   return (
     <>
       <Nav />
@@ -16,4 +16,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default index;

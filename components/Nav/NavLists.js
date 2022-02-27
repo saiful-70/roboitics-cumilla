@@ -5,8 +5,9 @@ import NavListItem from "./NavListItem";
 const navItem = {
   HOME: "/",
   EVENTS: "/events",
+  GALLERY: "/gallery",
   NOTICES: "/notices",
-  "TRAINING SESSION": "/training-session",
+  "COURSE PLAN": "/course-plan",
   "ABOUT US": "/about-us",
   REGISTER: "/register",
 };

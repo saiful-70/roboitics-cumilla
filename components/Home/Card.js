@@ -1,6 +1,6 @@
 import React from "react";
 
-const homeCardContent = {
+const CardContent = {
   card1: {
     heading: "রোবটিক্স ও প্রোগ্রামিং কোর্স",
     content: [
@@ -35,14 +35,14 @@ const homeCardContent = {
   },
 };
 
-const HomeCard = () => {
-  return Object.keys(homeCardContent).map((item) => (
+const Card = () => {
+  return Object.keys(CardContent).map((item) => (
     <div key={item} className="mx-auto w-5/6 rounded-md py-5 lg:w-2/3">
       <h3 className=" bg-blue-900 py-2 text-center text-xl font-bold text-white">
-        {homeCardContent[item].heading}
+        {CardContent[item].heading}
       </h3>
       <p className="text-md bg-gray-100 py-5 px-2 text-center shadow-md shadow-blue-500">
-        {homeCardContent[item].content.map((item) => (
+        {CardContent[item].content.map((item) => (
           <li className="my-1 list-none" key={item}>
             {item}
           </li>
@@ -52,4 +52,4 @@ const HomeCard = () => {
   ));
 };
 
-export default HomeCard;
+export default Card;

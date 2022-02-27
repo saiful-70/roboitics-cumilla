@@ -16,7 +16,7 @@ const Nav = () => {
   };
 
   return (
-    <nav className="relative z-50 flex items-center justify-between bg-gradient-to-br from-blue-500 to-blue-900 px-4 font-bold text-white shadow-md ">
+    <nav className="relative z-50 flex items-center justify-between bg-indigo-900 px-4 font-bold text-white shadow-md ">
       <div className="w-1/6 px-4 py-2">
         <Link href="/" passHref>
           <div className="relative h-16 w-16 cursor-pointer">

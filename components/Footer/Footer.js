@@ -9,9 +9,9 @@ import { BsGithub } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <div className="mt-10 w-full bg-gradient-to-br from-blue-500 to-blue-900 py-10 px-3 text-white">
+    <div className="mt-10 w-full bg-indigo-900 py-10 px-3 text-white">
       <div className="border-b-2 border-gray-400 pb-5">
-        <div className="relative my-2 mx-auto h-32 w-2/3 border-2 shadow-md shadow-gray-600 md:h-40 lg:h-48 xl:w-1/3">
+        <div className="relative my-2 mx-auto h-32 w-2/3 border-2 shadow-md shadow-gray-600 md:h-40 lg:h-60 lg:w-1/3">
           <Image
             src="/images/homepage/banner.jpg"
             alt="front-pic"
@@ -66,26 +66,49 @@ const Footer = () => {
         </div>
 
         <div className="px-10 pb-3 md:pt-3">
-          <h4 className="w-max border-b-2 text-sm font-bold">QUICK LINKS</h4>
+          <h4 className="w-max border-b-2 text-sm font-bold">
+            IMPORTANT LINKS
+          </h4>
           <div className="flex flex-col pt-3 text-sm font-bold text-gray-300">
-            <Link href="/training-session">
+            <Link href="/course-plan">
               <a className="w-min transition-transform hover:scale-105 hover:underline">
-                COURSES
+                Events
               </a>
             </Link>
             <Link href="/events">
               <a className="w-min transition-transform hover:scale-105 hover:underline">
-                EVENTS
+                Bulletin
               </a>
             </Link>
             <Link href="/notices">
               <a className="w-min transition-transform hover:scale-105 hover:underline">
-                NOTICES
+                Notices
               </a>
             </Link>
             <Link href="/register">
               <a className="w-min font-bold transition-transform hover:scale-105 hover:underline">
-                REGISTER
+                News
+              </a>
+            </Link>
+          </div>
+        </div>
+
+        <div className="px-10 pb-3 md:pt-3">
+          <h4 className="w-max border-b-2 text-sm font-bold">QUICK LINKS</h4>
+          <div className="flex flex-col pt-3 text-sm font-bold text-gray-300">
+            <Link href="/course-plan">
+              <a className="w-min transition-transform hover:scale-105 hover:underline">
+                Register
+              </a>
+            </Link>
+            <Link href="/events">
+              <a className="w-min transition-transform hover:scale-105 hover:underline">
+                Courses
+              </a>
+            </Link>
+            <Link href="/faq">
+              <a className="w-min font-bold transition-transform hover:scale-105 hover:underline">
+                FAQ
               </a>
             </Link>
           </div>
