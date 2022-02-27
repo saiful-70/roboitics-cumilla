@@ -1,0 +1,28 @@
+### About us card information
+======================================================
+Your JSON bin has been created, with id fa99fd08289c.
+
+URI to access this JSON bin:
+
+https://json.extendsclass.com/bin/fa99fd08289c
+URI to access this JSON in a text editor:
+
+https://extendsclass.com/jsonstorage/fa99fd08289c
+
+Secuirity Key : aboutusjsonfile
+======================================================
+
+
+### Notice information
+======================================================
+Your JSON bin has been created, with id 3c3f3c08b23d.
+
+URI to access this JSON bin:
+
+https://json.extendsclass.com/bin/3c3f3c08b23d
+URI to access this JSON in a text editor:
+
+https://extendsclass.com/jsonstorage/3c3f3c08b23d
+
+Secuirity Key : noticepageitem
+======================================================

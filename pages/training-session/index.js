@@ -12,7 +12,7 @@ const Index = () => {
         <h1 className="py-20 text-3xl font-bold text-gray-400">
           Comming Soon....
         </h1>
-        {/* <div className="mb-5 w-5/6 border-b-2 border-blue-500 pb-5 text-center">
+        <div className="mb-5 w-5/6 border-b-2 border-blue-500 pb-5 text-center">
           <a
             href="https://www.cumillarobotics.cf/start-course/index.html"
             target="_blank"
@@ -30,7 +30,7 @@ const Index = () => {
           <a href="https://www.cumillarobotics.cf/">
             Session <BsFillArrowUpRightSquareFill className="inline" />
           </a>
-        </div> */}
+        </div>
       </main>
       <Footer />
     </>
