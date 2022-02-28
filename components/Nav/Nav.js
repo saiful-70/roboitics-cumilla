@@ -2,7 +2,6 @@ import { useState } from "react";
 
 import Link from "next/link";
 
-import React from "react";
 import NavLists from "./NavLists";
 import Image from "next/image";
 

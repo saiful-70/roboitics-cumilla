@@ -21,7 +21,7 @@ const Footer = () => {
           />
         </div>
         <p className="pt-2 text-center font-bold md:text-lg lg:text-xl">
-          শিখবো মোরা বিশ্ব জয়ের তরে
+          Advancing Towards 4IR
         </p>
       </div>
 
@@ -70,6 +70,14 @@ const Footer = () => {
             IMPORTANT LINKS
           </h4>
           <div className="flex flex-col pt-3 text-sm font-bold text-gray-300">
+            <a
+              href="https://drive.google.com/file/d/14j29Cz3Osbzdx3FRj7hRWq0UpRZZRHeu/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+              className="w-min transition-transform hover:scale-105 hover:underline"
+            >
+              Constitution
+            </a>
             <Link href="/course-plan">
               <a className="w-min transition-transform hover:scale-105 hover:underline">
                 Events
@@ -85,7 +93,7 @@ const Footer = () => {
                 Notices
               </a>
             </Link>
-            <Link href="/register">
+            <Link href="/news">
               <a className="w-min font-bold transition-transform hover:scale-105 hover:underline">
                 News
               </a>
