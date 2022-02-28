@@ -1,0 +1,119 @@
+{
+  "Day 1": [
+    {
+      "What is programming?": "",
+      "Introduction to IC4IR": "",
+      "Career Opportunities of Programming": "",
+      "C Programming": {
+        "History": "",
+        "Basic Syntax": "",
+        "Idetifiers": "",
+        "Keywords": "",
+        "Variables": ""
+      }
+    }
+  ],
+
+  "Day 2": [
+    {
+      "C Programming": {
+        "Introduction to Binary Numbers": "",
+        "Data Types": "",
+        "Operators": "",
+        "User Inputs": "",
+        "Increment / Decrement": ""
+      },
+      "Math": {
+        "Algebra": [
+          "Algebric Equation",
+          "Series",
+          "Function",
+          "Set",
+          "Inequality"
+        ]
+      }
+    }
+  ],
+
+  "Day 3": [
+    {
+      "Logic Gate": "",
+      "C Programmig": {
+        "Conditional Logic": [
+          "If/else",
+          "Problem Solving With If/else",
+          "Relational Operator",
+          "Logical Operator",
+          "Nested If/else"
+        ]
+      },
+      "Math": ""
+    }
+  ],
+  "Day 4": [
+    {
+      "Loop": {
+        "For loop": "",
+        "While loop": "",
+        "Break and Continue statemen": "",
+        "Problem Solving with loop": ""
+      }
+    }
+  ],
+
+  "Day 5": [
+    {
+      "Array": {
+        "One Dimensional array": "",
+        "Multi Dimensional array": "",
+        "Problem Solving with array": ""
+      },
+      "Geometry": ""
+    }
+  ],
+
+  "Day 6": [
+    {
+      "String": {
+        "String Function": "",
+        "Problem Solving with string": ""
+      },
+      "Function": {
+        "C Programing Function": "",
+        "User-defined function": "",
+        "Recursive Function": "",
+        "Argument, Parameter": "",
+        "Return Type": ""
+      }
+    }
+  ],
+
+  "Day 7": [
+    {
+      "Searching": "",
+      "Sorting": ""
+    }
+  ],
+
+  "Day 8": [
+    {
+      "How to solve a problem": {
+        "How to approach with different methods": "",
+        "Thinking different": "",
+        "Brainstorming with problem solving": ""
+      }
+    }
+  ],
+  "Day 9": [
+    {
+      "Practice Session": "",
+      "Introduction to online judge": ""
+    }
+  ],
+
+  "Day 10": [
+    {
+      "Exam": ""
+    }
+  ]
+}
