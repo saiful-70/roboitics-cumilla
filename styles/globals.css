@@ -24,7 +24,7 @@
 
 /* Mobile Menu */
 .mobileMenu {
-  width: 2rem;
+  width: 1.5rem;
   height: 0.2rem;
   background-color: #fff;
   position: relative;
@@ -32,7 +32,7 @@
 }
 
 .mobileMenuCross {
-  width: 2rem;
+  width: 1.5rem;
   height: 0.2rem;
   background-color: #fff;
   position: relative;
