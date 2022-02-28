@@ -324,6 +324,62 @@ const Index = () => {
       </div> 
       </div>
 
+      <div>
+      <div className=" pr-20 bg-slate-300  drop-shadow-2xl border-2 rounded-full">
+      <BsCircleFill style={{color: 'goldenrod', fontSize: '30px'}} className="inline"/> <p className="font-bold text-black inline ">How to approach with different methods</p>
+    </div> 
+    <div className=" pr-20 bg-slate-300  drop-shadow-2xl border-2 rounded-full">
+      <BsCircleFill style={{color: 'goldenrod', fontSize: '30px'}} className="inline"/> <p className="font-bold text-black inline ">Thinking different</p>
+    </div> 
+    <div className=" pr-20 bg-slate-300  drop-shadow-2xl border-2 rounded-full">
+      <BsCircleFill style={{color: 'goldenrod', fontSize: '30px'}} className="inline"/> <p className="font-bold text-black inline ">Brainstorming with problem-solving</p>
+    </div> 
+    </div>
+
+    <div>
+      <div className="pr-20 bg-sky-800 border-2 rounded-full">
+      <AiOutlineCheckCircle style={{color: 'white', fontSize: '50px'}} className="inline"/> <p className="font-bold text-white inline ">Number theory</p>
+      </div> 
+      </div>
+
+
+{/* Day-9 */}
+
+<div style={{marginTop:"50px"}} >
+    <div className=" pr-20  bg-blue-900 border-2 rounded-full">
+      <BsArrowDownCircle style={{color: 'white', fontSize: '50px'}} className="inline"/> <p className="font-bold text-white inline ">Day-9</p>
+      </div> 
+    </div>
+
+
+    <div>
+      <div className="pr-20 bg-sky-800 border-2 rounded-full">
+      <AiOutlineCheckCircle style={{color: 'white', fontSize: '50px'}} className="inline"/> <p className="font-bold text-white inline ">Practice Session</p>
+      </div> 
+      </div>
+
+      <div>
+      <div className="pr-20 bg-sky-800 border-2 rounded-full">
+      <AiOutlineCheckCircle style={{color: 'white', fontSize: '50px'}} className="inline"/> <p className="font-bold text-white inline ">Introduction to the online judge</p>
+      </div> 
+      </div>
+
+
+{/* Day-10 */}
+
+<div style={{marginTop:"50px"}} >
+    <div className=" pr-20  bg-blue-900 border-2 rounded-full">
+      <BsArrowDownCircle style={{color: 'white', fontSize: '50px'}} className="inline"/> <p className="font-bold text-white inline ">Day-10</p>
+      </div> 
+    </div>
+
+
+    <div>
+      <div className="pr-20 bg-sky-800 border-2 rounded-full">
+      <AiOutlineCheckCircle style={{color: 'white', fontSize: '50px'}} className="inline"/> <p className="font-bold text-white inline ">Exam</p>
+      </div> 
+      </div>
+
         {/* <div className="mb-5 w-5/6 border-b-2 border-blue-500 pb-5 text-center">
           <a
             href="https://www.cumillarobotics.cf/start-course/index.html"
