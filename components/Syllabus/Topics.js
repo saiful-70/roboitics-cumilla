@@ -1,8 +1,13 @@
 import { useState, useEffect } from "react";
 import { AiOutlineCheckCircle } from "react-icons/ai";
-import { BsArrowDownCircle, BsCircleFill } from "react-icons/bs";
+import {
+  BsArrowDownCircle,
+  BsCircleFill,
+  BsShieldFillCheck,
+} from "react-icons/bs";
 import { ImRadioUnchecked } from "react-icons/im";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
+import { HiCheckCircle } from "react-icons/hi";
 
 const Topics = () => {
   const [data, setData] = useState();
@@ -44,7 +49,7 @@ const Topics = () => {
                                 key={item}
                                 className="my-0.5 ml-5 flex items-center"
                               >
-                                <ImRadioUnchecked className="text-md ml-0.5 mr-1 text-indigo-900" />
+                                <HiCheckCircle className="text-md ml-0.5 mr-1 text-indigo-900" />
                                 <p className="text-xs">{item}</p>
                               </div>
                             ))

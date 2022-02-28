@@ -1,134 +1,60 @@
 import React from "react";
+import { MdPlace } from "react-icons/md";
+import { BsBoxArrowInUpRight } from "react-icons/bs";
+
 import Footer from "../../../components/Footer/Footer";
 import Nav from "../../../components/Nav/Nav";
 import Sidebar from "../../../components/Common/CourseMenu/Sidebar";
+import TraingingCenterList from "../../../components/Course/TraingingCenterList";
 
-import {MdPlace} from "react-icons/md";
+const trainingCenterList = {
+  "Comilla Sadar South Upazila": "",
+  "Comilla Adarsa Sadar Upazila": "",
+  "Chandina Upazila": "",
+  "Chauddagram Upazila": "",
+  "Daudkandi Upazila": "",
+  "Brahmanpara Upazila": "",
+  "Homna Upazila": "",
+  "Monohorgonj Upazila": "",
+  "Laksam Upazila": "",
+  "Meghna Upazila": "",
+  "Titas Upazila": "",
+};
 
 const Session = () => {
   return (
     <>
       <Nav />
       <main className="relative">
-        {/* <h1 className="py-20 text-3xl font-bold text-gray-400">
-          Comming Soon....
-        </h1> */}
-
         <div className={`flex`}>
           <Sidebar />
 
-          <div className=" w-full bg-gray-200 md:w-2/3 mx-3">
-            {/* you will work from here */}
-            <h3 className="mx-auto mb-5 w-max border-b-2 border-gray-400 px-10 py-4 text-center text-3xl text-gray-700">
-              Upazila List
+          <div className=" mx-3 w-full bg-gray-200">
+            <h3 className="mx-auto mb-5 w-max border-b-2 border-gray-400 px-10 py-2 text-center text-3xl text-gray-700">
+              Training Center List
             </h3>
-
-            <div className="flex  justify-center items-center border-2 rounded bg-white shadow-lg shadow-indigo-500/50 mx-9 my-2 py-4">
-            <MdPlace className="pr-3" style={{ color: "black", fontSize: "30px" }} /> 
-                <p className=" text-lg font-bold text-black  ">
-                Comilla Sadar South Upazila
-                </p> 
+            <div>
+              <div className="mx-5 my-2 flex items-center rounded border-2 bg-white py-2 pl-3 shadow-md shadow-gray-500/50 md:mx-auto md:w-2/3">
+                <MdPlace className="mx-1 text-lg text-gray-800" />
+                <p className=" text-lg font-bold text-gray-800">
+                  The office of Deputy Comissioner, Cumilla
+                </p>
+                <a
+                  href="https://www.cumillarobotics.cf/start-course/index.html"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <BsBoxArrowInUpRight className="mx-1 cursor-pointer text-lg font-bold text-blue-600" />
+                </a>
               </div>
-              <div className="flex  justify-center items-center border-2 rounded bg-white shadow-lg shadow-indigo-500/50 mx-9 my-2 py-4">
-            <MdPlace className="pr-3" style={{ color: "black", fontSize: "30px" }} /> 
-                <p className=" text-lg font-bold text-black  ">
-                Comilla Adarsa Sadar Upazila
-                </p> 
-              </div>
-              <div className="flex  justify-center items-center border-2 rounded bg-white shadow-lg shadow-indigo-500/50 mx-9 my-2  py-5">
-            <MdPlace className="pr-3" style={{ color: "black", fontSize: "30px" }} /> 
-                <p className=" text-lg font-bold text-black  ">
-                Barura Upazila
-                </p> 
-              </div>
-              <div className="flex  justify-center items-center border-2 rounded bg-white shadow-lg shadow-indigo-500/50 mx-9 my-2  py-5">
-            <MdPlace className="pr-3"  style={{ color: "black", fontSize: "30px" }} /> 
-                <p className=" text-lg font-bold text-black  ">
-                Chandina Upazila 
-                </p> 
-              </div>
-              <div className="flex  justify-center items-center border-2 rounded bg-white shadow-lg shadow-indigo-500/50 mx-9 my-2  py-5">
-            <MdPlace className="pr-3" style={{ color: "black", fontSize: "30px" }} /> 
-                <p className=" text-lg font-bold text-black  ">
-                Chauddagram Upazila
-                </p> 
-              </div>
-              <div className="flex  justify-center items-center border-2 rounded bg-white shadow-lg shadow-indigo-500/50 mx-9 my-2  py-5">
-            <MdPlace className="pr-3" style={{ color: "black", fontSize: "30px" }} /> 
-                <p className=" text-lg font-bold text-black  ">
-                Daudkandi Upazila
-                </p> 
-              </div>
-
-              <div className="flex  justify-center items-center border-2 rounded bg-white shadow-lg shadow-indigo-500/50 mx-9 my-2  py-5">
-            <MdPlace className="pr-3" style={{ color: "black", fontSize: "30px" }} /> 
-                <p className=" text-lg font-bold text-black  ">
-                Brahmanpara Upazila
-                </p> 
-              </div>
-
-              <div className="flex  justify-center items-center border-2 rounded bg-white shadow-lg shadow-indigo-500/50 mx-9 my-2  py-5">
-            <MdPlace className="pr-3" style={{ color: "black", fontSize: "30px" }} /> 
-                <p className=" text-lg font-bold text-black  ">
-                Homna Upazila
-                </p> 
-              </div>
-
-              <div className="flex  justify-center items-center border-2 rounded bg-white shadow-lg shadow-indigo-500/50 mx-9 my-2  py-5">
-            <MdPlace className="pr-3" style={{ color: "black", fontSize: "30px" }} /> 
-                <p className=" text-lg font-bold text-black  ">
-                Monohorgonj Upazila
-                </p> 
-              </div>
-
-              <div className="flex  justify-center items-center border-2 rounded bg-white shadow-lg shadow-indigo-500/50 mx-9 my-2 py-5">
-            <MdPlace className="pr-3" style={{ color: "black", fontSize: "30px" }} /> 
-                <p className=" text-lg font-bold text-black  ">
-                Laksam Upazila 
-                </p> 
-              </div>
-
-              <div className="flex  justify-center items-center border-2 rounded bg-white shadow-lg shadow-indigo-500/50 mx-9 my-2  py-5">
-            <MdPlace className="pr-3" style={{ color: "black", fontSize: "30px" }} /> 
-                <p className=" text-lg font-bold text-black  ">
-                Debidwar Upazila
-                </p> 
-              </div>
-
-              <div className="flex  justify-center items-center border-2 rounded bg-white shadow-lg shadow-indigo-500/50 mx-9 my-2  py-5">
-            <MdPlace className="pr-3" style={{ color: "black", fontSize: "30px" }} /> 
-                <p className=" text-lg font-bold text-black  ">
-                Meghna Upazila
-                </p> 
-              </div>
-
-              <div className="flex  justify-center items-center border-2 rounded bg-white shadow-lg shadow-indigo-500/50 mx-9 my-2  py-5">
-            <MdPlace className="pr-3" style={{ color: "black", fontSize: "30px" }} /> 
-                <p className=" text-lg font-bold text-black  ">
-                Muradnagar Upazila
-                </p> 
-              </div>
-
-              <div className="flex  justify-center items-center border-2 rounded bg-white shadow-lg shadow-indigo-500/50 mx-9 my-2  py-5">
-            <MdPlace className="pr-3" style={{ color: "black", fontSize: "30px" }} /> 
-                <p className=" text-lg font-bold text-black  ">
-                Nangalkot Upazila
-                </p> 
-              </div>
-
-              <div className="flex  justify-center items-center border-2 rounded bg-white shadow-lg shadow-indigo-500/50 mx-9 my-2  py-5">
-            <MdPlace className="pr-3" style={{ color: "black", fontSize: "30px" }} /> 
-                <p className=" text-lg font-bold text-black  ">
-                Burichong Upazila 
-                </p> 
-              </div>
-
-              <div className="flex  justify-center items-center border-2 rounded bg-white shadow-lg shadow-indigo-500/50 mx-9 my-2  py-5">
-            <MdPlace className="pr-3" style={{ color: "black", fontSize: "30px" }} /> 
-                <p className=" text-lg font-bold text-black  ">
-                Titas Upazila
-                </p> 
-              </div>
+            </div>
+            {Object.keys(trainingCenterList).map((item) => (
+              <TraingingCenterList
+                key={item}
+                item={item}
+                link={trainingCenterList[item]}
+              />
+            ))}
           </div>
         </div>
       </main>

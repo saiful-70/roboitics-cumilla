@@ -41,7 +41,7 @@ export default function Home() {
       </div>
       <main className={`bg-heroSvg container mx-auto mt-5 h-full w-full px-5`}>
         <Card />
-        <VideoMessage />
+        {/* <VideoMessage /> */}
         <Messages />
         <Organizer />
       </main>

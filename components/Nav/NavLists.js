@@ -6,7 +6,7 @@ const navItem = {
   HOME: "/",
   EVENTS: "/events",
   GALLERY: "/gallery",
-  "FAB-LAB": "/fab-lab",
+  FABLAB: "/fablab",
   "COURSE PLAN": "/course-plan",
   "ABOUT US": "/about-us",
   REGISTER: "/register",
