@@ -1,19 +1,10 @@
-import { useState } from "react";
-import Nav from "../../components/Nav/Nav";
+import React from "react";
 import Footer from "../../components/Footer/Footer";
-import HomeCard from "../../components/Home/Card";
-
-import styles from "../../styles/Course.module.css";
-import Card from "../../components/Home/Card";
+import Nav from "../../components/Nav/Nav";
 import Sidebar from "../../components/Common/CourseMenu/Sidebar";
+import Card from "../../components/Home/Card";
 
-const Index = () => {
-  const [mobileMenu, setMobileMenu] = useState();
-
-  const handleClick = () => {
-    setMobileMenu(!mobileMenu);
-  };
-
+const Session = () => {
   return (
     <>
       <Nav />
@@ -35,4 +26,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default Session;
