@@ -11,7 +11,11 @@
 }
 
 .backgroundHome {
-  background-image: url(../public/images/for-design/svg1.svg);
+  background-image: linear-gradient(
+      rgba(252, 251, 255, 0.326),
+      rgba(255, 255, 255, 0.57)
+    ),
+    url(../public/images/for-design/svg1.svg);
   background-position: center;
   background-size: cover;
   background-repeat: none;

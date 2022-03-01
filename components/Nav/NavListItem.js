@@ -12,15 +12,13 @@ const NavListItem = ({ item, link }) => {
 
   return (
     <li
-      className="mb-5 rounded border-2 transition ease-in-out hover:scale-110 hover:transform lg:m-0 lg:mx-2"
+      className="mb-5 w-max rounded border-2 transition ease-in-out hover:scale-110 hover:transform lg:m-0 lg:mx-2"
       onClick={handleClick ? () => handleClick() : null}
     >
       <Link href={link}>
         <a
-          className={`border-b-0 border-white py-1 px-2 transition-all hover:border-b-4 ${
-            router.asPath === link
-              ? "rounded-none rounded-tl-lg rounded-br-lg bg-white text-blue-900"
-              : ""
+          className={`border-b-0 border-white px-2 text-xl transition-all hover:border-b-4 ${
+            router.asPath === link ? "bg-white text-blue-900" : ""
           }`}
         >
           {item}
