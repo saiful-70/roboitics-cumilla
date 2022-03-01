@@ -39,7 +39,7 @@ export default function Home() {
       <div className={`relative h-screen`}>
         <Slider slideImage={slideImage} />
         <div className="absolute top-0 left-0 z-10 h-screen w-full bg-gradient-to-br from-black/80 to-black/20"></div>
-        <h1 className="absolute top-1/2 left-1/2 z-20 -translate-x-1/2  text-center text-4xl font-bold text-gray-300">
+        <h1 className="absolute top-1/2 left-1/2 z-20 -translate-x-1/2 translate-y-1/2  text-center text-4xl font-bold text-gray-300">
           মুজিব শতবর্ষ ও বাংলাদেশের সূবর্ণ জয়ন্তী উপলক্ষে কুমিল্লা জেলাপ্রশাসন
           কর্তৃক আয়োজিত রোবটিক্স ও প্রোগ্রামিং কোর্স।
         </h1>
