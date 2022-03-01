@@ -2,10 +2,34 @@
   "Math": [
     {
       "Algebra": {
-        "Algebric Equation": ""
+        "Algebric Equation": "",
+        "Algebric MAnupulation":"",
+        "Set":"",
+        "Function":"",
+        "Series":"",
+        "Inequility":""
+
+      },
+      "Combinatorics":{
+         "Counting":"",
+         "Permutation":"",
+         "Combination":"",
+         "Probability":""
       },
       "Number Theory": {
-        "Divisiblity": ["Prime Number", "Composite Number", "Parity"]
+        "Divisiblity": ["Prime Number", "Composite Number", "Parity"],
+        "GCD":"",
+        "LCM":"",
+        "Coprime":""
+      },
+      "Geometry":{
+         "Points,Lines,Planes":"",
+         "Angles":"",
+         "Perpendicular and Parallel":"",
+         "Triangles":"",
+         "Quadrilaterals":"",
+         "Circles":"",
+         "Area":""
       }
     }
   ],
@@ -13,21 +37,131 @@
   "C Programming": [
     {
       "C Programming": {
-        "Introduction to Binary Numbers": "",
+        "Introduction": ["History","Basic System","Identifiers","Keywords","Variable"],
         "Data Types": "",
         "Operators": "",
         "User Inputs": "",
-        "Increment / Decrement": ""
-      },
-      "Math": {
-        "Algebra": [
-          "Algebric Equation",
-          "Series",
-          "Function",
-          "Set",
-          "Inequality"
-        ]
+        "Increment / Decrement": "",
+        "Conditional Logic": ["if/else","if else ladder","nested if else"],
+        "Loop":["for loop","while loop","break and continu"],
+        "Array":["One dimensional array","Multidimensional array"],
+        "Function":["C programming function","User defined function","Recursive function"],
+        "String":""
       }
+      
     }
-  ]
+  ],
+  "Electronics":[ {
+    "Basic Electronics": "",
+    "Various electronics component introduction":"",
+    "Logic gate":"",
+    "Practically circuit design":"",
+    "Power source":"",
+    "Android control can circuit":"",
+    "Avoid obstacles can circuit design":"" 
+  }
+],
+
+"Arduino Programming":[{
+
+  "Programming concet":{
+    "How a computer program works?":"",
+  "Input-Processing-Output":"",
+  "Algorithm-Flowchart":""
+  },
+  "Data types":"",
+  "Variable":"",
+  "Operator":"",
+  "Bit,Byte":"",
+  "Introduction to Arduino UNO":{
+    "Pin":"",
+    "psu":"",
+    "I/O Ports":"",
+    "PWM":""
+  },
+  
+  "First Program":{
+    "Setup,Loop":"",
+    "PinMode,Read,Write,Delete":"",
+    "LED Blinking":""
+  },
+  "Conditional Logic":{
+    "How to make decision":"",
+    "Project on if statement":""
+  },
+  "Loop":{
+    "for loop":"",
+    "While loop":"",
+    "Project on loop statement":""
+  },
+  "Sensor":{
+    "introducing sensor ":["LDR","Ultrasonic","Temperature","IR","Obstacle","Rain","Pir"],
+    "Read data from sensor":"",
+    "Project with sensor":""
+  },
+  "Motor Driven":{
+    "Clockwise/Anticlockwise Rotation":"",
+    "Controlling motor speed":"",
+    "Project with motor":"",
+    "Serial communication":["Serial read & write"],
+    "Bluetooth Module":""
+  }
+
+}],
+
+"Competitive Programing":[{
+  "Searching":{
+    "Linear search":"",
+    "Binary search":""
+  },
+  "Sorting":{
+    "Bubble sort":"",
+    "Selection sort":"",
+    "Insertion sort":"",
+    "Counting sort":"",
+    "Merge sort":["Divide and Coonquer"]
+  },
+  "Linear DSA":{
+    "Arrays":"",
+    "Linked list":["Stack","Queue","Deque"]
+  },
+  "The Based DSA(Non-linear)":{
+    "Basic of tree types":["Binary","Full Binary","Perfect Binary","Complete Binary"],
+    "Tree Traversal":["Inorder","Preorder","Post-order"]
+  },
+  "Graph based DSA(Non-linear)":{
+     "Basics":["Node","Edge","Direction","Weight"],
+     "Adjacency list":"",
+     "Adjacency Matrix":"",
+     "DFS":"",
+     "BFS":""
+  }
+}],
+
+"Dynamic Programming":[{
+  "What is DP anndwhy?":"",
+  "Fibonacci":"",
+  "Sum of subset":"",
+  "Coin change":"",
+  "Longest common subsequence":"",
+  "Longest increasing subsequence":"",
+  "0-1 Knapsack":""
+
+}],
+
+"Introduction with C++":[{
+  "STL":{
+    "Set":"",
+    "Map":"",
+    "Sort":"",
+    "Swap":"",
+    "Count":"",
+    "Upperbound":"",
+    "Lowebound":"",
+    "Pair":"",
+    "String function":""
+
+  }
+}]
+
 }
