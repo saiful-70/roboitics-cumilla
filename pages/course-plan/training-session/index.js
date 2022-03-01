@@ -10,17 +10,24 @@ import Sidebar from "../../../components/Common/CourseMenu/Sidebar";
 import TraingingCenterList from "../../../components/Course/TraingingCenterList";
 
 const trainingCenterList = {
-  "Comilla Sadar South Upazila": "",
-  "Comilla Adarsa Sadar Upazila": "",
-  "Chandina Upazila": "",
-  "Chauddagram Upazila": "",
-  "Daudkandi Upazila": "",
-  "Brahmanpara Upazila": "",
-  "Homna Upazila": "",
-  "Monohorgonj Upazila": "",
-  "Laksam Upazila": "",
-  "Meghna Upazila": "",
-  "Titas Upazila": "",
+  "Cumilla Sadar South Upazila": "training-session/upazila/cumilla-sadar-south",
+  "Barura Upazila": "training-session/upazila/barura",
+  "Cumilla Adarsa Sadar Upazila":
+    "training-session/upazila/cumilla-adarsa-sadar",
+  "Chandina Upazila": "training-session/upazila/chandina",
+  "Chauddagram Upazila": "training-session/upazila/chauddagram",
+  "Daudkandi Upazila": "training-session/upazila/daudkandi",
+  "Brahmanpara Upazila": "training-session/upazila/brahmanpara",
+  "Homna Upazila": "training-session/upazila/homna",
+  "Monohorgonj Upazila": "training-session/upazila/monohorgonj",
+  "Laksam Upazila": "training-session/upazila/laksam",
+  "Meghna Upazila": "training-session/upazila/meghna",
+  "Titas Upazila": "training-session/upazila/titas",
+  "Burichong Upazila": "training-session/upazila/burichong",
+  "Nangalkot Upazila": "training-session/upazila/nangalkot",
+  "Muradnagar Upazila": "training-session/upazila/muradnagar",
+  "Lalmai Upazila": "training-session/upazila/lalmai",
+  "Debidwar Upazila": "training-session/upazila/debidwar",
 };
 
 const Session = () => {

@@ -1,15 +1,7 @@
 import { useState } from "react";
-
 import SidebarListItem from "./SidebarListItem";
 
-const sideBarItem = {
-  Intro: "/course-plan",
-  Syllabus: "/course-plan/syllabus",
-  Booklist: "/course-plan/booklist",
-  "Training Session": "/course-plan/training-session",
-};
-
-const Sidebar = () => {
+const SidebarUpazila = ({ sideBarItemUpazila }) => {
   const [mobileMenu, setMobileMenu] = useState(true);
 
   const handleClick = () => {
@@ -29,17 +21,25 @@ const Sidebar = () => {
           mobileMenu ? "-left-full" : "left-0 h-full"
         }`}
       >
-        {Object.keys(sideBarItem).map((item) => (
-          <SidebarListItem key={item} item={item} link={sideBarItem[item]} />
+        {Object.keys(sideBarItemUpazila).map((item) => (
+          <SidebarListItem
+            key={item}
+            item={item}
+            link={sideBarItemUpazila[item]}
+          />
         ))}
       </ul>
       <ul className="hidden bg-indigo-900 lg:block">
-        {Object.keys(sideBarItem).map((item) => (
-          <SidebarListItem key={item} item={item} link={sideBarItem[item]} />
+        {Object.keys(sideBarItemUpazila).map((item) => (
+          <SidebarListItem
+            key={item}
+            item={item}
+            link={sideBarItemUpazila[item]}
+          />
         ))}
       </ul>
     </>
   );
 };
 
-export default Sidebar;
+export default SidebarUpazila;

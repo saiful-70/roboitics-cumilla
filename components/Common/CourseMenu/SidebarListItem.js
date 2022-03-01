@@ -10,12 +10,10 @@ const SidebarListItem = ({ item, link }) => {
     // e.preventDefault();
     router.push(link);
   };
-  <li className="my-2 border-b border-gray-500 py-2 px-5 text-lg font-bold text-gray-400 hover:text-white">
-    Intro
-  </li>;
+
   return (
     <li
-      className="my-2 border-b border-gray-500 py-2 px-5 text-lg font-bold text-gray-400 hover:text-white"
+      className="my-2 w-max border-b border-gray-500 py-2 px-5 text-lg font-bold text-gray-400 hover:text-white"
       onClick={handleClick ? () => handleClick() : null}
     >
       <Link href={link}>
