@@ -26,7 +26,7 @@ const Index = () => {
         {data &&
           Object.keys(data).map((item) => (
             <div key={item} className="my-5 w-full px-5">
-              <h3 className="w-max border-b-2 border-gray-300 font-bold text-gray-800">
+              <h3 className="w-max rounded-md border-2 border-gray-500 px-2 py-1 font-bold text-gray-800">
                 {item}
               </h3>
               <EventList data={data[item]} />
