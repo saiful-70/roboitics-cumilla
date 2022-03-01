@@ -23,7 +23,7 @@ const Index = () => {
           <h3 className="mx-auto mb-5 w-max border-b-2 border-dotted border-gray-500 text-xl font-bold text-gray-700"></h3>
           <div className="mx-auto h-auto w-min bg-white p-10 shadow-lg shadow-gray-500">
             <h3 className="pb-3 text-center font-bold text-gray-600">
-              ফ্যাবল্যাবে কাজ করছে একদল মেধাবী
+              ফ্যাবল্যাবে কাজ করছে একদল মেধাবী তরুণ
             </h3>
             <div className="mx-auto grid w-max grid-cols-2 grid-rows-3 place-items-center gap-2 rounded-md md:grid-cols-3">
               {fablabMarch01.map((item) => (
