@@ -1,7 +1,6 @@
 import React from "react";
-import { GiOpenBook } from "react-icons/gi";
 
-import styles from "../../styles/Course.module.css";
+import styles from "../../styles/Background.module.css";
 
 import Footer from "../../components/Footer/Footer";
 import Nav from "../../components/Nav/Nav";
@@ -12,7 +11,7 @@ const Index = () => {
   return (
     <>
       <Nav />
-      <main className={`relative pt-16  ${styles.syllabusMain}`}>
+      <main className={`relative pt-16  ${styles.backgroundCourse}`}>
         {/* <h1 className="py-20 text-3xl font-bold text-gray-400">
           Comming Soon....
         </h1> */}
