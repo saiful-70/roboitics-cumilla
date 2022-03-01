@@ -4,7 +4,7 @@ import Footer from "../../components/Footer/Footer";
 
 import styles from "../../styles/Background.module.css";
 
-import Card from "../../components/Home/Card";
+import Card from "../../components/Course/Card";
 import Sidebar from "../../components/Common/CourseMenu/Sidebar";
 
 const Index = () => {

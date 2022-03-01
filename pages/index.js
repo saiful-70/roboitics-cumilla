@@ -18,7 +18,8 @@ import Marquee from "../components/Common/Merquee";
 const slideImage = [
   // "/images/homepage/slide/0.jpg",
   // "/images/homepage/slide/1.jpg",
-  "/images/homepage/slide/homeImage.jpeg",
+  "/images/homepage/slide/homeImage1.jpeg",
+  "/images/homepage/slide/homeImage2.jpeg",
 ];
 
 export default function Home() {
@@ -39,9 +40,8 @@ export default function Home() {
       <div className={`relative h-screen`}>
         <Slider slideImage={slideImage} />
         <div className="absolute top-0 left-0 z-10 h-screen w-full bg-gradient-to-br from-black/80 to-black/20"></div>
-        <h1 className="absolute top-1/2 left-1/2 z-20 -translate-x-1/2 translate-y-1/2  text-center text-4xl font-bold text-gray-300">
-          মুজিব শতবর্ষ ও বাংলাদেশের সূবর্ণ জয়ন্তী উপলক্ষে কুমিল্লা জেলাপ্রশাসন
-          কর্তৃক আয়োজিত রোবটিক্স ও প্রোগ্রামিং কোর্স।
+        <h1 className="absolute top-1/2 left-1/2 z-20 -translate-x-1/2 -translate-y-2/3  bg-gradient-to-r from-gray-100 to-gray-500 bg-clip-text  text-center text-6xl font-extrabold text-transparent">
+          কুমিল্লা রোবটিক্স এবং প্রোগ্রামিং ক্লাব
         </h1>
       </div>
 
