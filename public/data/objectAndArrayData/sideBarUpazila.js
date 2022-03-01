@@ -5,6 +5,7 @@ export const sideBarItemUpazilaBrahmanpara = {
     "/course-plan/training-session/upazila/brahmanpara/class-module",
   "Participant Lists":
     "/course-plan/training-session/upazila/brahmanpara/participant-lists",
+    "Constitution" : "https://drive.google.com/file/d/1y0nD-SCTOf8WLxYghjfbRd4w5atgq3-w/view?usp=sharing"
 };
 
 export const sideBarItemUpazilaBarura = {
@@ -13,6 +14,7 @@ export const sideBarItemUpazilaBarura = {
   "Class Module": "/course-plan/training-session/upazila/barura/class-module",
   "Participant Lists":
     "/course-plan/training-session/upazila/barura/participant-lists",
+    "Constitution" : "https://drive.google.com/file/d/1oc23yL2QgSgSJ9V2AOmsRssR1O8k7DqI/view?usp=sharing"
 };
 
 export const sideBarItemUpazilaBurichong = {
@@ -22,6 +24,7 @@ export const sideBarItemUpazilaBurichong = {
     "/course-plan/training-session/upazila/burichong/class-module",
   "Participant Lists":
     "/course-plan/training-session/upazila/burichong/participant-lists",
+    "Constitution" : "https://drive.google.com/file/d/1zcE9HECB2TdWKC-YZtv6ExUt_UOEP8xF/view?usp=sharing"
 };
 
 export const sideBarItemUpazilaChandina = {
@@ -30,6 +33,7 @@ export const sideBarItemUpazilaChandina = {
   "Class Module": "/course-plan/training-session/upazila/chandina/class-module",
   "Participant Lists":
     "/course-plan/training-session/upazila/chandina/participant-lists",
+    "Constitution" : "https://drive.google.com/file/d/1xbRhMsf7OZ4PJW1CXDV6cDN_-qQdKshl/view?usp=sharing"
 };
 
 export const sideBarItemUpazilaChauddagram = {
@@ -39,6 +43,7 @@ export const sideBarItemUpazilaChauddagram = {
     "/course-plan/training-session/upazila/chauddagram/class-module",
   "Participant Lists":
     "/course-plan/training-session/upazila/chauddagram/participant-lists",
+    "Constitution" : "https://drive.google.com/file/d/1sjwdpwPuYE_OEMB3emX_NyshrGgZntFb/view?usp=sharing"
 };
 
 export const sideBarItemUpazilaCumillaAdarsaSadar = {
@@ -49,6 +54,7 @@ export const sideBarItemUpazilaCumillaAdarsaSadar = {
     "/course-plan/training-session/upazila/cumilla-adarsa-sadar/class-module",
   "Participant Lists":
     "/course-plan/training-session/upazila/cumilla-adarsa-sadar/participant-lists",
+    "Constitution" : "-"
 };
 
 export const sideBarItemUpazilaCumillaSadarSouth = {
@@ -59,6 +65,7 @@ export const sideBarItemUpazilaCumillaSadarSouth = {
     "/course-plan/training-session/upazila/cumilla-sadar-south/class-module",
   "Participant Lists":
     "/course-plan/training-session/upazila/cumilla-sadar-south/participant-lists",
+    "Constitution" : "https://drive.google.com/file/d/1LvVIbCVlb-wVJLXV1EVRHbQcbgnFKOBv/view?usp=sharing"
 };
 
 export const sideBarItemUpazilaDaudkandi = {
@@ -68,6 +75,7 @@ export const sideBarItemUpazilaDaudkandi = {
     "/course-plan/training-session/upazila/daudkandi/class-module",
   "Participant Lists":
     "/course-plan/training-session/upazila/daudkandi/participant-lists",
+    "Constitution" : "https://drive.google.com/file/d/1oMRtzCanQ_AQ2iRxgWuIRGOxjYmPnQ8G/view?usp=sharing"
 };
 
 export const sideBarItemUpazilaDebidwar = {
@@ -76,6 +84,7 @@ export const sideBarItemUpazilaDebidwar = {
   "Class Module": "/course-plan/training-session/upazila/debidwar/class-module",
   "Participant Lists":
     "/course-plan/training-session/upazila/debidwar/participant-lists",
+    "Constitution" : "https://drive.google.com/file/d/1W9z0HQAyKvdqrRnn8sP0iNJXVJofwvOV/view?usp=sharing"
 };
 
 export const sideBarItemUpazilaHomna = {
@@ -84,6 +93,7 @@ export const sideBarItemUpazilaHomna = {
   "Class Module": "/course-plan/training-session/upazila/homna/class-module",
   "Participant Lists":
     "/course-plan/training-session/upazila/homna/participant-lists",
+    "Constitution" : "https://drive.google.com/file/d/1IIkF493pkMgB6GH2ehnrLCZNAiaX0SW1/view?usp=sharing"
 };
 
 export const sideBarItemUpazilaLaksam = {
@@ -92,6 +102,7 @@ export const sideBarItemUpazilaLaksam = {
   "Class Module": "/course-plan/training-session/upazila/laksam/class-module",
   "Participant Lists":
     "/course-plan/training-session/upazila/laksam/participant-lists",
+    "Constitution" : "https://drive.google.com/file/d/19glAa1Rl2SDCc2dsTOwYCY4Ww9XSDB_1/view?usp=sharing"
 };
 
 export const sideBarItemUpazilaLalmai = {
@@ -100,6 +111,7 @@ export const sideBarItemUpazilaLalmai = {
   "Class Module": "/course-plan/training-session/upazila/lalmai/class-module",
   "Participant Lists":
     "/course-plan/training-session/upazila/lalmai/participant-lists",
+    "Constitution" : "https://drive.google.com/file/d/1ZF0Y8UFL56RUxfuzEorBOiLB16NSFkOJ/view?usp=sharing"
 };
 
 export const sideBarItemUpazilaMeghna = {
@@ -108,6 +120,7 @@ export const sideBarItemUpazilaMeghna = {
   "Class Module": "/course-plan/training-session/upazila/meghna/class-module",
   "Participant Lists":
     "/course-plan/training-session/upazila/meghna/participant-lists",
+    "Constitution" : "https://drive.google.com/file/d/1mtiKwEN8eOgfVpjpWyVYXLIJdQV2CbMJ/view?usp=sharing"
 };
 
 export const sideBarItemUpazilaMonohorgonj = {
@@ -117,6 +130,7 @@ export const sideBarItemUpazilaMonohorgonj = {
     "/course-plan/training-session/upazila/monohorgonj/class-module",
   "Participant Lists":
     "/course-plan/training-session/upazila/monohorgonj/participant-lists",
+    "Constitution" : "https://drive.google.com/file/d/16O14s3od0XiKqta00EbmzhP9amtHF6sX/view?usp=sharing"
 };
 
 export const sideBarItemUpazilaMuradnagar = {
@@ -126,6 +140,7 @@ export const sideBarItemUpazilaMuradnagar = {
     "/course-plan/training-session/upazila/muradnagar/class-module",
   "Participant Lists":
     "/course-plan/training-session/upazila/muradnagar/participant-lists",
+    "Constitution" : "https://drive.google.com/file/d/1w9pb6c1bWVCttEOVqu8MXhICuCcE2kzk/view?usp=sharing"
 };
 
 export const sideBarItemUpazilaNangalkot = {
@@ -135,6 +150,7 @@ export const sideBarItemUpazilaNangalkot = {
     "/course-plan/training-session/upazila/nangalkot/class-module",
   "Participant Lists":
     "/course-plan/training-session/upazila/nangalkot/participant-lists",
+    "Constitution" : "https://drive.google.com/file/d/1BIQHbFzcOmSLZhZd0QIKjjRoxwOUkFOi/view?usp=sharing"
 };
 
 export const sideBarItemUpazilaTitas = {
@@ -143,4 +159,5 @@ export const sideBarItemUpazilaTitas = {
   "Class Module": "/course-plan/training-session/upazila/titas/class-module",
   "Participant Lists":
     "/course-plan/training-session/upazila/titas/participant-lists",
+    "Constitution" : "https://drive.google.com/file/d/1eu5XeW4tLTE8Ko66tEZyTDGnozLupDj5/view?usp=sharing"
 };
