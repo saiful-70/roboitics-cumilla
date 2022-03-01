@@ -9,3 +9,23 @@
   background-repeat: none;
   background-attachment: fixed;
 }
+
+.backgroundHome {
+  background-image: url(../public/images/for-design/svg1.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  /* background-attachment: fixed; */
+}
+
+.backgroundCourse {
+  background-image: linear-gradient(
+      rgba(252, 251, 255, 0.25),
+      rgba(255, 255, 255, 0.25)
+    ),
+    url(../public/images//common/syllabus.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  background-attachment: fixed;
+}

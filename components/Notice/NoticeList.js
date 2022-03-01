@@ -8,7 +8,7 @@ const NoticeList = ({ data }) => {
       {data.map((notice) => (
         <div
           key={notice.id}
-          className="mx-3 my-3 flex border border-gray-500 px-2 py-3 md:mx-auto md:w-5/6 lg:w-2/3"
+          className="my-3 flex border border-gray-500 px-2 py-3  md:w-5/6 lg:w-2/3"
         >
           <div
             className="notices-center flex h-20 w-max flex-col justify-center bg-blue-600 p-3 text-center text-white

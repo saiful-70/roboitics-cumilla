@@ -1,0 +1,48 @@
+{
+  "Upcoming Events": [
+    {
+      "id": "notice1",
+      "date": {
+        "day": 27,
+        "month": "Feb",
+        "year": 2022
+      },
+      "heading": "Event will be added soon!",
+      "link": ""
+    }
+  ],
+  "Current Events": [
+    {
+      "id": "notice1",
+      "date": {
+        "day": 27,
+        "month": "Feb",
+        "year": 2022
+      },
+      "heading": "Event will be added soon!",
+      "link": ""
+    },
+    {
+      "id": "notice2",
+      "date": {
+        "day": 27,
+        "month": "Feb",
+        "year": 2022
+      },
+      "heading": "Event will be added soon!",
+      "link": ""
+    }
+  ],
+  "Past Events": [
+    {
+      "id": "notice1",
+      "date": {
+        "day": 27,
+        "month": "Feb",
+        "year": 2022
+      },
+      "heading": "Event will be added soon!",
+      "link": ""
+    }
+  ]
+}

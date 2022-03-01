@@ -14,7 +14,7 @@ const Slider = ({ slideImage }) => {
       slidesPerView={1}
       autoplay
       pagination={{ clickable: true }}
-      className="lg:h-100 mb-10 h-64 rounded-sm border-b-2 border-indigo-900 px-5 py-5 md:h-72 md:w-5/6 lg:w-2/3 "
+      className="z-0 h-full w-full"
       wrapperTag="ul"
     >
       {slideImage.map((item) => (

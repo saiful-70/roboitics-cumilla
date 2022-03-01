@@ -11,20 +11,24 @@ import "swiper/css/bundle";
 import Footer from "../../components/Footer/Footer";
 import Nav from "../../components/Nav/Nav";
 
-const slideImage = ["/images/fab-lab/0.jpg", "/images/fab-lab/1.jpg"];
+const slideImage = [
+  "/images/fab-lab/0.jpg",
+  "/images/fab-lab/1.jpg",
+  "/images/fab-lab/2.jpg",
+];
 
 const Index = () => {
   return (
     <>
       <Nav />
-      <main className="relative bg-gray-200">
+      <main className="relative bg-gray-200 pt-16">
         <div className="md:w-105 mx-auto  w-full rounded bg-white px-5 py-5 shadow-lg shadow-gray-300 lg:w-2/3">
           <Swiper
             modules={[Navigation, Pagination, Autoplay]}
             slidesPerView={1}
             autoplay
             pagination={{ clickable: true }}
-            className="h-48 shadow-lg shadow-indigo-300 md:h-64 md:w-5/6 lg:h-72"
+            className="h-48 shadow-lg shadow-indigo-300 md:h-64 md:w-full lg:h-96"
             wrapperTag="ul"
           >
             {slideImage.map((item) => (

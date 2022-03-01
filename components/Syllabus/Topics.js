@@ -13,7 +13,7 @@ const Topics = () => {
   const [data, setData] = useState();
   useEffect(() => {
     const fetchTopic = async () => {
-      const response = await fetch("/data/syllabusTopics.json");
+      const response = await fetch("/data/jsonData/syllabusTopics.json");
       const data = await response.json();
       setData(data);
     };

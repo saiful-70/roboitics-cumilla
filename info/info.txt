@@ -26,3 +26,9 @@ https://extendsclass.com/jsonstorage/3c3f3c08b23d
 
 Secuirity Key : noticepageitem
 ======================================================
+
+### strapi info cp server info
+======================================================
+mail: saiful70.me@gmail.com
+pass: WorkingWithCPserver@2022
+======================================================

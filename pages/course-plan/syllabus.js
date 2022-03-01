@@ -1,6 +1,6 @@
 import React from "react";
 
-import styles from "../../styles/Course.module.css";
+import styles from "../../../styles/Background.module.css";
 
 import Footer from "../../components/Footer/Footer";
 import Nav from "../../components/Nav/Nav";
@@ -11,7 +11,7 @@ const Index = () => {
   return (
     <>
       <Nav />
-      <main className={`relative ${styles.syllabusMain}`}>
+      <main className={`relative pt-16 ${styles.backgroundCourse}`}>
         <div className="flex">
           <Sidebar />
           <div className="mx-auto mt-5">

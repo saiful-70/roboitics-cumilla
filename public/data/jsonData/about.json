@@ -1,5 +1,5 @@
 {
-  "organizers": [
+  "ORGANIZER": [
     {
       "id": 1,
       "image": "/images/team_organizers/dc.jpg",
@@ -73,7 +73,7 @@
     }
   ],
 
-  "robotics": [
+  "ROBOTICS TEAM": [
     {
       "id": 1,
       "image": "/images/team_programmers/sanjit_physics.jpg",
@@ -146,7 +146,7 @@
     }
   ],
 
-  "developers": [
+  "DEVELOPERS TEAM": [
     {
       "id": 1,
       "image": "/images/team_programmers/saiful_ict.jpg",
@@ -177,7 +177,7 @@
       "speciality": ["UI/UX Designer", "Graphic Designer", "Web Developer"]
     }
   ],
-  "trainers": [
+  "PROGRAMMING TRAINERS": [
     {
       "id": 1,
       "image": "/images/team_programmers/jewel_ict.jpg",

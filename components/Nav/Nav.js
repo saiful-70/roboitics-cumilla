@@ -15,10 +15,10 @@ const Nav = () => {
   };
 
   return (
-    <nav className="relative z-50 flex items-center justify-between bg-indigo-900 px-4 font-bold text-white shadow-md ">
-      <div className="w-1/6 px-4 py-2">
+    <nav className="fixed z-50 flex w-screen items-center justify-between bg-indigo-900/90 px-4 font-bold text-white shadow-sm shadow-gray-300 ">
+      <div className="w-1/6 px-4 py-1">
         <Link href="/" passHref>
-          <div className="relative h-16 w-16 cursor-pointer">
+          <div className="relative h-14 w-14 cursor-pointer">
             <Image
               alt="logo"
               src={logo}
