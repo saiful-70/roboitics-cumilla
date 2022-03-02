@@ -29,7 +29,7 @@ const Nav = () => {
         </Link>
       </div>
       <div
-        className="z-50 cursor-pointer rounded-sm px-2 py-4 shadow-inner  shadow-gray-100 lg:hidden"
+        className="z-50 mr-3 cursor-pointer rounded-sm px-2 py-4  shadow-inner shadow-gray-100 lg:hidden"
         onClick={() => handleClick()}
       >
         <div className={mobileMenu ? "mobileMenu" : "mobileMenuCross"}></div>

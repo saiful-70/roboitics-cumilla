@@ -4,10 +4,11 @@ import NavListItem from "./NavListItem";
 
 const navItem = {
   HOME: "/",
+  "COURSE PLAN": "/course-plan",
   EVENTS: "/events",
+  NOTICES: "/notices",
   GALLERY: "/gallery",
   FABLAB: "/fablab",
-  "COURSE PLAN": "/course-plan",
   "ABOUT US": "/about-us",
   REGISTER: "/register",
 };
