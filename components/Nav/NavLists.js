@@ -10,7 +10,7 @@ const navItem = {
   GALLERY: "/gallery",
   FABLAB: "/fablab",
   "ABOUT US": "/about-us",
-  REGISTER: "/register",
+  "MEMBER REGISTRATION": "/register",
 };
 
 const NavLists = () => {

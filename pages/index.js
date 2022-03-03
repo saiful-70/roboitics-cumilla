@@ -15,6 +15,7 @@ import Slider from "../components/Common/Slider";
 
 // images for slider
 const slideImage = [
+  "/images/homepage/slide/homeImage0.jpg",
   "/images/homepage/slide/homeImage1.jpeg",
   "/images/homepage/slide/homeImage2.jpeg",
 ];
@@ -32,39 +33,49 @@ export default function Home() {
       </Head>
 
       {/* <Marquee /> */}
-      <div className={`relative h-80 pt-20 lg:h-screen`}>
+      <div
+        className={`relative h-64 lg:mx-auto lg:h-80 lg:w-2/3 xl:h-96 xl:w-1/2`}
+      >
         <Slider slideImage={slideImage} />
-        <div className="absolute top-0 left-0 z-10 h-full w-full bg-gradient-to-br from-black/70 to-black/20"></div>
-        <h1 className="absolute top-1/2 left-1/2 z-20 -translate-x-1/2 -translate-y-1/4 bg-gradient-to-r  from-gray-100 to-gray-400 bg-clip-text text-center text-xl font-extrabold leading-normal text-transparent sm:text-3xl lg:-translate-y-1/2 lg:text-6xl lg:leading-relaxed">
-          কুমিল্লা রোবটিক্স এবং প্রোগ্রামিং ক্লাব
-        </h1>
+        {/* <div className="absolute left-5 top-0 z-10 hidden h-full w-full -translate-y-10  items-center lg:flex">
+          <div className="bg-white/70">
+            <div className="relative z-20 h-52 w-52 ">
+              <Image
+                src="/images/crpc-logo.png"
+                alt="crpc logo"
+                layout="fill"
+                className=""
+              />
+            </div>
+          </div>
+          <div className="h-max w-max bg-white/50 font-bold leading-4">
+            <h4 className="text-lg text-indigo-900">CUMILLA</h4>
+            <h3 className="text-2xl ">ROBOTICS &</h3>
+            <h3 className="text-2xl ">PROGRAMMING CLUB</h3>
+            <h4 className="text-lg text-indigo-900">CLUB</h4>
+            <h5 className="bg-orange-600 text-white">
+              District Administration, Cumilla
+            </h5>
+          </div>
+        </div> */}
       </div>
       <Nav />
 
       <main
         className={`${styles.backgroundHome} container mx-auto mt-5 h-full w-full px-5`}
       >
-        <Card />
-        <VideoMessage />
-        <Messages />
-        <div className="mx-auto flex flex-col bg-white px-5 py-3 md:w-2/3 md:flex-row">
-          <div className="relative mx-auto mb-5 h-32 w-5/6 py-5 shadow-lg shadow-gray-300 md:mb-0 md:mr-3 lg:h-40 lg:w-2/3">
+        <div className="flex w-full flex-col lg:flex-row lg:items-center lg:justify-center">
+          <VideoMessage />
+          {/* <div className="relative h-96 w-full">
             <Image
-              alt="digital bangladesh"
-              src="/images/homepage/digital-bangladesh.png"
+              src="/images/crpc-leaflet.jpg"
+              alt="crpc leaflet"
               layout="fill"
-              className="bg-white"
             />
-          </div>
-          <div className="relative mx-auto h-32 w-5/6 py-5 shadow-lg shadow-gray-300 lg:h-40 lg:w-2/3">
-            <Image
-              alt="digital bangladesh"
-              src="/images/homepage/mujib-shotoborso.png"
-              layout="fill"
-              className="bg-white"
-            />
-          </div>
+          </div> */}
+          <Card />
         </div>
+        <Messages />
         <Organizer />
       </main>
       <Footer />

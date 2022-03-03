@@ -18,7 +18,7 @@ const Index = () => {
   return (
     <>
       <Nav />
-      <main className="container mx-auto w-full pt-16">
+      <main className="container mx-auto w-full  ">
         {/* <h1 className="text-3xl font-bold text-gray-400">Comming Soon....</h1> */}
         <h2 className="mx-auto mb-5 w-max border-b-4 px-10 py-1 text-center text-3xl text-gray-700 md:w-5/6 lg:w-2/3">
           Our Events and Activities

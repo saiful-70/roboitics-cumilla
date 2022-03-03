@@ -19,13 +19,14 @@ const Sidebar = () => {
   return (
     <>
       <div
-        className="z-10 h-max cursor-pointer bg-indigo-900 px-2 py-4 lg:hidden"
+        className="z-10 flex h-max cursor-pointer items-center bg-indigo-900 px-2 py-4 lg:hidden "
         onClick={() => handleClick()}
       >
         <div className={mobileMenu ? "mobileMenu" : "mobileMenuCross"}></div>
+        <span className="ml-2 font-bold text-white">Menu</span>
       </div>
       <ul
-        className={`absolute bg-indigo-900/90 pt-8 transition-all duration-300 lg:w-1/6 ${
+        className={`absolute bg-indigo-900/90 pt-12 transition-all duration-300 lg:w-1/6 ${
           mobileMenu ? "-left-full" : "left-0 h-full"
         }`}
       >

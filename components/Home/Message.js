@@ -33,13 +33,13 @@ const homeMessageContent = {
 
 const Message = () => {
   return (
-    <div className="mx-auto mt-20 w-5/6">
+    <div className="mx-auto mt-10 w-5/6">
       <HeadingSecondary text="বার্তা" />
       <div className="md:flex md:flex-wrap md:justify-center">
         {Object.keys(homeMessageContent).map((item) => (
           <div
             key={item}
-            className="mt-8 mb-8 flex h-max flex-col items-center justify-center border-2 bg-gray-100 py-5 shadow-md shadow-blue-500 md:mx-auto md:w-2/3 lg:mx-5 lg:w-1/3"
+            className="mt-8 mb-8 flex h-max flex-col items-center justify-center border-2 bg-gray-100 py-5 shadow-md shadow-blue-500 md:mx-auto md:w-2/3 lg:mx-3 lg:w-2/5"
           >
             <div className="flex flex-col items-center justify-center border-b-2 border-gray-500">
               <div className="relative h-48 w-48">

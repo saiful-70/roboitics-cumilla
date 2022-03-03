@@ -9,7 +9,7 @@ export default function Example() {
     <>
       <Nav />
       <main>
-        <div className="w-full px-4 pt-16">
+        <div className="w-full px-4  ">
           <h3 className="mx-auto mb-5 w-max border-b-4 px-10 py-1 text-center text-3xl text-gray-700">
             সাধারণ জিজ্ঞাসা
           </h3>

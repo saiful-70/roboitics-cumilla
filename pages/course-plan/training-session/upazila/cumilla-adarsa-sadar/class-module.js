@@ -13,7 +13,7 @@ const Index = () => {
   return (
     <>
       <Nav />
-      <main className={`relative pt-16 ${styles.backgroundCourse}`}>
+      <main className={`relative   ${styles.backgroundCourse}`}>
         <div className="flex">
           <SidebarUpazila
             sideBarItemUpazila={sideBarItemUpazilaCumillaAdarsaSadar}

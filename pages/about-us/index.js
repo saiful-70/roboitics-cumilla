@@ -30,7 +30,7 @@ const Index = () => {
         {data && Object.keys(data).map((item) => categories.push(item))}
       </div>
       <Nav />
-      <main className=" mx-auto pt-10 lg:container">
+      <main className=" mx-auto lg:container">
         <div className="w-full px-2 py-10 md:px-10 lg:px-16">
           <Tab.Group>
             <Tab.List className="flex rounded-xl bg-gradient-to-br from-blue-500 to-blue-900 p-1">

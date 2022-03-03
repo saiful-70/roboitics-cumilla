@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="border-b-2 border-gray-400 pb-5">
         <div className="relative my-2 mx-auto h-32 w-2/3 border-2 shadow-md shadow-gray-600 md:h-40 lg:h-60 lg:w-1/3">
           <Image
-            src="/images/homepage/banner.jpg"
+            src="/images/crpc-logo-footer.jpg"
             alt="front-pic"
             layout="fill"
             className=""

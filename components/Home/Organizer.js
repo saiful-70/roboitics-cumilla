@@ -9,8 +9,8 @@ import quantaLogo from "../../public/images/homepage/quanta.png";
 
 const Organizer = () => {
   return (
-    <div>
-      <HeadingSecondary text="আয়োজনে" />
+    <div className="mt-10">
+      {/* <HeadingSecondary text="আয়োজনে" />
       <div>
         <div className="relative mx-auto mt-6 h-32 w-72">
           <Image
@@ -23,7 +23,7 @@ const Organizer = () => {
         <h4 className="mt-2 text-center text-xl font-bold  hover:underline">
           <a href="http://comilla.gov.bd/">জেলা প্রশাসন, কুমিল্লা</a>
         </h4>
-      </div>
+      </div> */}
 
       <HeadingSecondary text="বাস্তবায়নে সহযোগী" />
       <div className="md:flex md:justify-center">

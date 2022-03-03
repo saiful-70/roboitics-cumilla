@@ -21,7 +21,7 @@ const Index = () => {
   return (
     <>
       <Nav />
-      <main className="relative bg-gray-200 pt-16">
+      <main className="relative bg-gray-200  ">
         <div className="md:w-105 mx-auto  w-full rounded bg-white px-5 py-5 shadow-lg shadow-gray-300 lg:w-2/3">
           <Swiper
             modules={[Navigation, Pagination, Autoplay]}

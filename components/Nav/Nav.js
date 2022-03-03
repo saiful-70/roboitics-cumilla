@@ -15,8 +15,8 @@ const Nav = () => {
   };
 
   return (
-    <nav className="relative z-50 flex w-full items-center justify-between bg-indigo-900/90 py-2 font-bold text-white shadow-sm shadow-gray-300 ">
-      <div className="hidden w-1/6 px-4 py-1 lg:block">
+    <nav className="relative z-50 flex w-full items-center justify-between bg-indigo-900/90 py-2 font-bold text-white shadow-sm shadow-gray-300 lg:justify-center">
+      {/* <div className="hidden w-1/6 px-4 py-1 lg:block">
         <Link href="/" passHref>
           <div className="relative h-14 w-14 cursor-pointer">
             <Image
@@ -27,9 +27,9 @@ const Nav = () => {
             />
           </div>
         </Link>
-      </div>
+      </div> */}
       {/* mobile menu */}
-      <div className="w-full px-5">
+      <div className="w-full px-5 lg:hidden">
         <div
           className="z-50 flex cursor-pointer items-center justify-center rounded-sm px-3  py-4 shadow-inner shadow-gray-100 lg:hidden"
           onClick={() => handleClick()}
