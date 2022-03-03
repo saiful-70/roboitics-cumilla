@@ -12,6 +12,7 @@ import VideoMessage from "../components/Home/VideoMessage";
 import Organizer from "../components/Home/Organizer";
 import Footer from "../components/Footer/Footer";
 import Slider from "../components/Common/Slider";
+import { EventsMarquee } from "../components/Common/Merquee";
 
 // images for slider
 const slideImage = [
@@ -75,6 +76,7 @@ export default function Home() {
           </div> */}
           <Card />
         </div>
+        <EventsMarquee />
         <Messages />
         <Organizer />
       </main>
