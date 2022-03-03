@@ -2,13 +2,13 @@ import React from "react";
 import Link from "next/link";
 import { IoIosArrowDroprightCircle } from "react-icons/io";
 
-const EventList = ({ data }) => {
+const EventList = ({ data, extraClass }) => {
   return (
     <>
       {data.map((item, index) => (
         <div
           key={item}
-          className="mx-auto my-3 flex border border-gray-500 px-2 py-3  md:w-5/6 lg:w-2/3"
+          className={`mx-auto my-3 flex border border-gray-500 px-2 py-3 md:w-5/6 lg:w-2/3 ${extraClass}`}
         >
           <div
             className="notices-center flex h-20 w-max flex-col justify-center bg-blue-600 p-3 text-center text-white

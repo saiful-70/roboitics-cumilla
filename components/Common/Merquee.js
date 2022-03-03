@@ -29,7 +29,7 @@ export const EventsMarquee = () => {
         </h3>
         {data && (
           <Marquee speed={100} pauseOnHover="true" className="my-3 w-full px-5">
-            <EventList data={data} />
+            <EventList data={data} extraClass="mx-5" />
           </Marquee>
         )}
       </div>

@@ -28,7 +28,7 @@ const Index = () => {
             slidesPerView={1}
             autoplay
             pagination={{ clickable: true }}
-            className="h-48 shadow-lg shadow-indigo-300 md:h-64 md:w-full lg:h-96"
+            className="xl:h-100 h-48 shadow-lg shadow-indigo-300 md:h-64 md:w-full lg:h-80 lg:w-5/6"
             wrapperTag="ul"
           >
             {slideImage.map((item) => (

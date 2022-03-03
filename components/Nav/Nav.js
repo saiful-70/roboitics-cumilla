@@ -15,8 +15,8 @@ const Nav = () => {
   };
 
   return (
-    <nav className="relative z-50 flex w-full items-center justify-between bg-indigo-900/90 py-2 font-bold text-white shadow-sm shadow-gray-300 lg:justify-center">
-      {/* <div className="hidden w-1/6 px-4 py-1 lg:block">
+    <nav className="relative z-50 flex w-full items-center justify-center bg-indigo-900/90 py-2 font-bold text-white shadow-sm shadow-gray-300 lg:justify-center">
+      <div className="hidden w-max py-1 lg:block">
         <Link href="/" passHref>
           <div className="relative h-14 w-14 cursor-pointer">
             <Image
@@ -27,7 +27,7 @@ const Nav = () => {
             />
           </div>
         </Link>
-      </div> */}
+      </div>
       {/* mobile menu */}
       <div className="w-full px-5 lg:hidden">
         <div
@@ -48,7 +48,7 @@ const Nav = () => {
       </div>
 
       {/* pc */}
-      <ul className="hidden px-10 lg:flex lg:h-full lg:items-center lg:justify-center xl:px-20">
+      <ul className="hidden lg:flex lg:h-full lg:items-center lg:justify-center xl:px-20">
         <NavLists />
       </ul>
     </nav>
