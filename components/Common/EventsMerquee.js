@@ -15,12 +15,18 @@ const EventsMarquee = () => {
 
   return (
     <>
-      <div className="mx-auto mt-10 border border-black">
+      <div className="mx-auto mt-10 w-screen border border-black">
         <h3 className="bg-indigo-700 px-2 py-1 text-center font-bold text-white ">
           Upcoming Events&nbsp;»
         </h3>
         {data && (
-          <Marquee speed={100} pauseOnHover="true" className="my-3 w-full px-5">
+          <Marquee
+            speed={100}
+            delay={2}
+            pauseOnHover="true"
+            pauseOnClick="false"
+            className="my-3 w-full px-5"
+          >
             <EventList data={data} extraClass="mx-5" />
           </Marquee>
         )}

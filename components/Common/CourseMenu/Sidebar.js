@@ -6,7 +6,7 @@ const sideBarItem = {
   Intro: "/course-plan",
   Syllabus: "/course-plan/syllabus",
   Booklist: "/course-plan/booklist",
-  "Training Session": "/course-plan/training-session",
+  "Upazilla Lists": "/course-plan/training-session",
 };
 
 const Sidebar = () => {

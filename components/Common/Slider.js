@@ -18,10 +18,10 @@ const Slider = ({ slideImage }) => {
   return (
     <Swiper
       autoplay={{
-        disableOnInteraction: true,
-        delay: 3000,
+        disableOnInteraction: false,
+        delay: 2000,
       }}
-      speed={3000}
+      speed={2000}
       loop={true}
       effect="fade"
       className="z-0 h-full w-full shadow-lg  shadow-indigo-400"

@@ -8,10 +8,10 @@ const EventList = ({ data, extraClass }) => {
       {data.map((item, index) => (
         <div
           key={item}
-          className={`mx-auto my-3 flex border border-gray-500 px-2 py-3 md:w-5/6 lg:w-2/3 ${extraClass}`}
+          className={`mx-auto my-3 flex border border-gray-500 px-2 py-2 md:w-5/6 lg:w-2/3 ${extraClass}`}
         >
           <div
-            className="notices-center flex h-20 w-max flex-col justify-center bg-blue-600 p-3 text-center text-white
+            className="notices-center flex h-20 w-max flex-col justify-center bg-blue-600 px-3 text-center text-white
           "
           >
             <span className="text-2xl font-bold">{data[index].date.day}</span>
