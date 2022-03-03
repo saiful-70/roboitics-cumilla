@@ -19,9 +19,9 @@ const Index = () => {
         <div className={`flex`}>
           <Sidebar />
 
-          <div className=" w-full lg:w-5/6">
-            <h3 className="mx-auto mb-5 w-max border-b-2 border-gray-400 px-10 py-1 text-center text-3xl text-gray-700">
-              Book List
+          <div className="w-full lg:w-5/6">
+            <h3 className="mx-auto mb-5 border-b-2 border-gray-400 px-10 py-1 text-center text-3xl text-gray-700">
+              Recommended Book List
             </h3>
             <Booklist />
           </div>

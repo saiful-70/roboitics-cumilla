@@ -24,7 +24,7 @@ const Booklist = () => {
       {Object.keys(bookList).map((item) => (
         <div
           key={item}
-          className="mx-auto my-2 flex h-max w-full items-center bg-white px-3 py-2 shadow-lg md:w-2/3"
+          className="mx-auto my-2 flex h-auto w-full items-center bg-white px-3 py-2 shadow-lg md:w-2/3"
         >
           <div className="h-full bg-indigo-900 px-2 py-0.5">
             <GiOpenBook className="text-2xl text-white" />
