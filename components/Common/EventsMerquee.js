@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import Marquee from "react-fast-marquee";
 import EventList from "../Event/EventList";
 
-export const EventsMarquee = () => {
+const EventsMarquee = () => {
   const [data, setData] = useState();
   useEffect(() => {
     const fetchTopic = async () => {
@@ -28,3 +28,5 @@ export const EventsMarquee = () => {
     </>
   );
 };
+
+export default EventsMarquee;

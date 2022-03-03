@@ -12,7 +12,7 @@ import VideoMessage from "../components/Home/VideoMessage";
 import Organizer from "../components/Home/Organizer";
 import Footer from "../components/Footer/Footer";
 import Slider from "../components/Common/Slider";
-import EventsMarquee from "../components/Common/EventMerquee";
+import EventsMarquee from "../components/Common/EventsMerquee";
 
 // images for slider
 const slideImage = [
