@@ -5,7 +5,6 @@ import styles from "../../styles/Background.module.css";
 
 import Footer from "../../components/Footer/Footer";
 import Nav from "../../components/Nav/Nav";
-import Marquee from "../../components/Common/Merquee";
 
 // import gallery image
 import { fablabMarch01 } from "../../public/data/imageData/gallery";
@@ -14,7 +13,6 @@ const Index = () => {
   return (
     <>
       <Nav />
-      <Marquee />
       <main className={`py-10 ${styles.background1}`}>
         <h2 className="mx-auto mb-5 w-max border-b-2 border-gray-600 px-10 py-1 text-center text-3xl text-gray-700">
           Gallery
