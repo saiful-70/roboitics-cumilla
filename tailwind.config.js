@@ -9,6 +9,9 @@ module.exports = {
         aboutPrimary: "#003555",
         aboutSecondary: "#FBB03B",
       },
+      transitionProperty: {
+        height: "height",
+      },
       spacing: {
         100: "30rem",
         105: "32rem",

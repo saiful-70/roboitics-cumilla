@@ -31,8 +31,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Nav />
-
       {/* <Marquee /> */}
       <div className={`relative h-80 pt-20 lg:h-screen`}>
         <Slider slideImage={slideImage} />
@@ -41,6 +39,7 @@ export default function Home() {
           কুমিল্লা রোবটিক্স এবং প্রোগ্রামিং ক্লাব
         </h1>
       </div>
+      <Nav />
 
       <main
         className={`${styles.backgroundHome} container mx-auto mt-5 h-full w-full px-5`}
