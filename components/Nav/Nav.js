@@ -5,8 +5,6 @@ import Link from "next/link";
 import NavLists from "./NavLists";
 import Image from "next/image";
 
-import logo from "../../public/images/homepage/logo.jpg";
-
 const Nav = () => {
   const [mobileMenu, setMobileMenu] = useState(true);
 
@@ -20,7 +18,7 @@ const Nav = () => {
           <div className="relative h-14 w-14 cursor-pointer">
             <Image
               alt="logo"
-              src={logo}
+              src="/images/homepage/logo.jpg"
               layout="fill"
               className="rounded-full"
             />

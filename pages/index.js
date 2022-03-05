@@ -13,6 +13,9 @@ import Organizer from "../components/Home/Organizer";
 import Footer from "../components/Footer/Footer";
 import Slider from "../components/Common/Slider";
 import EventsMarquee from "../components/Common/EventsMerquee";
+import HeaderStripe, {
+  HeaderStripeMobile,
+} from "../components/Common/HeaderStripe";
 
 // images for slider
 const slideImage = [
@@ -33,7 +36,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      {/* <Marquee /> */}
+      <HeaderStripe />
+      <HeaderStripeMobile />
       <div
         className={`relative h-64 lg:mx-auto lg:h-80 lg:w-2/3 xl:h-96 xl:w-1/2`}
       >
