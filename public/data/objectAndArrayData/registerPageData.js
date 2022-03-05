@@ -1,9 +1,10 @@
 // import { Formik, Field, Form, ErrorMessage } from "formik";
 
-// import { useFormik } from "formik";
 import * as Yup from "yup";
 
-export const formik = {
+const notify = () => toast("Form submited successfully!");
+
+export const formikData = {
   initialValues: {
     name: "",
     dateOfBirth: "",
@@ -72,23 +73,5 @@ export const formik = {
       .oneOf(["yes", "no"], "Must be yes or no")
       .required("Required"),
     knowCrpc: Yup.string().max(150, "Must be 150 characters or less"),
-  },
-  handleSubmit: async (values, onSubmitProps) => {
-    // console.log(values);
-    // alert(JSON.stringify(values, null, 2));
-
-    fetch(
-      "https://sheet.best/api/sheets/380dbe3f-5774-44af-8504-97670cc95756",
-      {
-        method: "POST",
-        mode: "cors",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(values),
-      }
-    )
-      .then((response) => response.json())
-      .then((data) => {});
   },
 };
