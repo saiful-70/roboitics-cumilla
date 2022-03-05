@@ -29,7 +29,7 @@ export const HeaderStripeMobile = () => {
         <h2 className="text-xl leading-5">ROBOTICS &</h2>
         <h2 className="text-xl leading-5">PROGRAMMING</h2>
         <h3 className="text-md leading-5 text-gray-100">CLUB</h3>
-        <p className="text-sm font-normal">Distric Administration, Cumilla</p>
+        <p className="text-sm font-normal">District Administration, Cumilla</p>
       </div>
     </div>
   );
