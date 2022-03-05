@@ -5,7 +5,7 @@ import styles from "../../styles/Background.module.css";
 import Footer from "../../components/Footer/Footer";
 import Nav from "../../components/Nav/Nav";
 import Sidebar from "../../components/Common/CourseMenu/Sidebar";
-import Topics from "../../components/Syllabus/Topics";
+import Topics from "../../components/Syllabus/Topics/Topics";
 
 const Index = () => {
   return (
@@ -18,7 +18,7 @@ const Index = () => {
             <h3 className="mx-auto mb-5 w-max border-b-2 border-gray-400 px-10 py-1 text-center text-3xl text-gray-700">
               Primary Syllabus
             </h3>
-            <Topics />
+            <Topics dataUrl="/data/jsonData/syllabusMain.json" />
           </div>
         </div>
       </main>
