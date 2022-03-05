@@ -12,7 +12,7 @@ const TextField = ({ label, ...props }) => {
         {label}
       </label>
       <input
-        className="h-10 w-full rounded border border-gray-500 pl-3 font-bold text-gray-700 shadow-md shadow-gray-400"
+        className="h-10 w-full rounded border-gray-500 pl-3 font-bold text-gray-700 shadow-md shadow-gray-400"
         {...field}
         {...props}
       />

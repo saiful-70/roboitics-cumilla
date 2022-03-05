@@ -20,9 +20,9 @@ const Index = () => {
           <Sidebar />
 
           <div className="w-full lg:w-5/6">
-            <h3 className="mx-auto mb-5 border-b-2 border-gray-400 px-10 py-1 text-center text-3xl text-gray-700">
+            <h2 className="mx-auto mb-5 border-b-2 border-gray-400 px-10 py-1 text-center text-3xl text-gray-700 lg:w-max">
               Recommended Book List
-            </h3>
+            </h2>
             <Booklist />
           </div>
         </div>

@@ -2,34 +2,33 @@
   "Math": [
     {
       "Algebra": {
-        "Algebric Equation": "",
-        "Algebric MAnupulation":"",
-        "Set":"",
-        "Function":"",
-        "Series":"",
-        "Inequility":""
-
+        "Algebraic Equation": "",
+        "Algebraic Manipulation": "",
+        "Set": "",
+        "Function": "",
+        "Series": "",
+        "Inequality": ""
       },
-      "Combinatorics":{
-         "Counting":"",
-         "Permutation":"",
-         "Combination":"",
-         "Probability":""
+      "Combinatorics": {
+        "Counting": "",
+        "Permutation": "",
+        "Combination": "",
+        "Probability": ""
       },
       "Number Theory": {
-        "Divisiblity": ["Prime Number", "Composite Number", "Parity"],
-        "GCD":"",
-        "LCM":"",
-        "Coprime":""
+        "Divisibility": ["Prime Number", "Composite Number", "Parity"],
+        "GCD": "",
+        "LCM": "",
+        "Co-prime": ""
       },
-      "Geometry":{
-         "Points,Lines,Planes":"",
-         "Angles":"",
-         "Perpendicular and Parallel":"",
-         "Triangles":"",
-         "Quadrilaterals":"",
-         "Circles":"",
-         "Area":""
+      "Geometry": {
+        "Points,Lines,Planes": "",
+        "Angles": "",
+        "Perpendicular and Parallel": "",
+        "Triangles": "",
+        "Quadrilaterals": "",
+        "Circles": "",
+        "Area": ""
       }
     }
   ],
@@ -37,131 +36,157 @@
   "C Programming": [
     {
       "C Programming": {
-        "Introduction": ["History","Basic System","Identifiers","Keywords","Variable"],
+        "Introduction": [
+          "History",
+          "Basic Syntax",
+          "Identifiers",
+          "Keywords",
+          "Variable"
+        ],
         "Data Types": "",
         "Operators": "",
-        "User Inputs": "",
+        "User Input": "",
         "Increment / Decrement": "",
-        "Conditional Logic": ["if/else","if else ladder","nested if else"],
-        "Loop":["for loop","while loop","break and continu"],
-        "Array":["One dimensional array","Multidimensional array"],
-        "Function":["C programming function","User defined function","Recursive function"],
-        "String":""
+        "Conditional Logic": ["if/else", "if else ladder", "nested if else"],
+        "Loop": ["for loop", "while loop", "break and continue"],
+        "Array": ["One dimensional array", "Multidimensional array"],
+        "Function": [
+          "C programming function",
+          "User defined function",
+          "Recursive function"
+        ],
+        "String": ""
       }
-      
     }
   ],
-  "Electronics":[ {
-    "Basic Electronics": "",
-    "Various electronics component introduction":"",
-    "Logic gate":"",
-    "Practically circuit design":"",
-    "Power source":"",
-    "Android control can circuit":"",
-    "Avoid obstacles can circuit design":"" 
-  }
-],
+  "Electronics": [
+    {
+      "Basic Electronics": "",
+      "Various electronics component introduction": "",
+      "Logic gate": "",
+      "Practically circuit design": "",
+      "Power source": "",
+      "Android control car circuit": "",
+      "Avoid obstacles car circuit design": ""
+    }
+  ],
 
-"Arduino Programming":[{
+  "Arduino Programming": [
+    {
+      "Programming concept": {
+        "How a computer program works?": "",
+        "Input-Processing-Output": "",
+        "Algorithm-Flowchart": ""
+      },
+      "Data types": "",
+      "Variable": "",
+      "Operator": "",
+      "Bit,Byte": "",
+      "Introduction to Arduino UNO": {
+        "Pin": "",
+        "psu": "",
+        "I/O Ports": "",
+        "PWM": ""
+      },
 
-  "Programming concet":{
-    "How a computer program works?":"",
-  "Input-Processing-Output":"",
-  "Algorithm-Flowchart":""
-  },
-  "Data types":"",
-  "Variable":"",
-  "Operator":"",
-  "Bit,Byte":"",
-  "Introduction to Arduino UNO":{
-    "Pin":"",
-    "psu":"",
-    "I/O Ports":"",
-    "PWM":""
-  },
-  
-  "First Program":{
-    "Setup,Loop":"",
-    "PinMode,Read,Write,Delete":"",
-    "LED Blinking":""
-  },
-  "Conditional Logic":{
-    "How to make decision":"",
-    "Project on if statement":""
-  },
-  "Loop":{
-    "for loop":"",
-    "While loop":"",
-    "Project on loop statement":""
-  },
-  "Sensor":{
-    "introducing sensor ":["LDR","Ultrasonic","Temperature","IR","Obstacle","Rain","Pir"],
-    "Read data from sensor":"",
-    "Project with sensor":""
-  },
-  "Motor Driven":{
-    "Clockwise/Anticlockwise Rotation":"",
-    "Controlling motor speed":"",
-    "Project with motor":"",
-    "Serial communication":["Serial read & write"],
-    "Bluetooth Module":""
-  }
+      "First Program": {
+        "Setup,Loop": "",
+        "PinMode,Read,Write,Delete": "",
+        "LED Blinking": ""
+      },
+      "Conditional Logic": {
+        "How to make a decision": "",
+        "Project on if statement": ""
+      },
+      "Loop": {
+        "for loop": "",
+        "While loop": "",
+        "Project on loop statement": ""
+      },
+      "Sensor": {
+        "introducing sensor ": [
+          "LDR",
+          "Ultrasonic",
+          "Temperature",
+          "IR",
+          "Obstacle",
+          "Rain",
+          "Pir"
+        ],
+        "Read data from sensor": "",
+        "Project with sensor": ""
+      },
+      "Motor Driven": {
+        "Clockwise/Anticlockwise Rotation": "",
+        "Controlling motor speed": "",
+        "Project with motor": "",
+        "Serial communication": ["Serial read & write"],
+        "Bluetooth Module": ""
+      }
+    }
+  ],
 
-}],
+  "Competitive Programing": [
+    {
+      "Searching": {
+        "Linear search": "",
+        "Binary search": ""
+      },
+      "Sorting": {
+        "Bubble sort": "",
+        "Selection sort": "",
+        "Insertion sort": "",
+        "Counting sort": "",
+        "Merge sort": ["Divide and Conquer"]
+      },
+      "Linear DSA": {
+        "Arrays": "",
+        "Linked list": ["Stack", "Queue", "Deque"]
+      },
+      "Tree Based DSA(Non-linear)": {
+        "Basic of tree types": [
+          "Binary",
+          "Full Binary",
+          "Perfect Binary",
+          "Complete Binary"
+        ],
+        "Tree Traversal": ["Inorder", "Preorder", "Post-order"]
+      },
+      "Graph Based DSA(Non-linear)": {
+        "Basics": ["Node", "Edge", "Direction", "Weight"],
+        "Adjacency List": "",
+        "Adjacency Matrix": "",
+        "DFS": "",
+        "BFS": ""
+      }
+    }
+  ],
 
-"Competitive Programing":[{
-  "Searching":{
-    "Linear search":"",
-    "Binary search":""
-  },
-  "Sorting":{
-    "Bubble sort":"",
-    "Selection sort":"",
-    "Insertion sort":"",
-    "Counting sort":"",
-    "Merge sort":["Divide and Coonquer"]
-  },
-  "Linear DSA":{
-    "Arrays":"",
-    "Linked list":["Stack","Queue","Deque"]
-  },
-  "The Based DSA(Non-linear)":{
-    "Basic of tree types":["Binary","Full Binary","Perfect Binary","Complete Binary"],
-    "Tree Traversal":["Inorder","Preorder","Post-order"]
-  },
-  "Graph based DSA(Non-linear)":{
-     "Basics":["Node","Edge","Direction","Weight"],
-     "Adjacency list":"",
-     "Adjacency Matrix":"",
-     "DFS":"",
-     "BFS":""
-  }
-}],
+  "Dynamic Programming": [
+    {
+      "What is DP and Why?": "",
+      "Fibonacci Series": "",
+      "Sum of Subset": "",
+      "Coin Change": "",
+      "Longest Common Subsequence": "",
+      "Longest Increasing Subsequence": "",
+      "0-1 Knapsack": ""
+    }
+  ],
 
-"Dynamic Programming":[{
-  "What is DP anndwhy?":"",
-  "Fibonacci":"",
-  "Sum of subset":"",
-  "Coin change":"",
-  "Longest common subsequence":"",
-  "Longest increasing subsequence":"",
-  "0-1 Knapsack":""
-
-}],
-
-"Introduction with C++":[{
-  "STL":{
-    "Set":"",
-    "Map":"",
-    "Sort":"",
-    "Swap":"",
-    "Count":"",
-    "Upperbound":"",
-    "Lowebound":"",
-    "Pair":"",
-    "String function":""
-
-  }
-}]
-
+  "Introduction with C++": [
+    {
+      "STL": {
+        "Set": "",
+        "Map": "",
+        "Sort": "",
+        "Swap": "",
+        "Count": "",
+        "Upperbound": "",
+        "Lowebound": "",
+        "Pair": "",
+        "String function": ""
+      }
+    }
+  ]
 }

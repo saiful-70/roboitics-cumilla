@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import { IoIosArrowDroprightCircle } from "react-icons/io";
 
 const EventList = ({ data, extraClass }) => {

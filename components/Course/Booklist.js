@@ -1,5 +1,6 @@
 import React from "react";
 import { GiOpenBook } from "react-icons/gi";
+import { BsBoxArrowInUpRight } from "react-icons/bs";
 
 const bookList = {
   "১। কম্পিউটার প্রোগ্রামিং - ১ম খন্ড | তামিম শাহরিয়ার সুবিন":
@@ -24,21 +25,16 @@ const Booklist = () => {
       {Object.keys(bookList).map((item) => (
         <div
           key={item}
-          className="mx-auto my-2 flex h-auto w-full items-center bg-white px-3 py-2 shadow-lg md:w-2/3"
+          className="mx-auto my-2 flex h-auto w-full items-center bg-white px-3 py-2 shadow-lg md:w-2/3 lg:py-3"
         >
-          <div className="h-full bg-indigo-900 px-2 py-0.5">
+          <div className="h-full bg-indigo-900 px-2 py-0.5 lg:px-3 lg:py-2">
             <GiOpenBook className="text-2xl text-white" />
           </div>
           <div className="flex flex-col justify-center pl-3">
             <p className="text-xs">
               {item}
-              <a
-                href={bookList[item]}
-                target="_blank"
-                rel="noreferrer"
-                className="mr-1 rounded-lg bg-indigo-700 px-2 py-1 text-left text-xs text-white"
-              >
-                <span className="mr-1 pr-1">Visit »</span>
+              <a href={bookList[item]} target="_blank" rel="noreferrer">
+                <BsBoxArrowInUpRight className="mx-1 inline cursor-pointer text-lg font-bold text-blue-600" />
               </a>
             </p>
           </div>

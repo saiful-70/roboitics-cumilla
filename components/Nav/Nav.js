@@ -35,11 +35,11 @@ const Nav = () => {
           onClick={() => handleClick()}
         >
           <div className={mobileMenu ? "mobileMenu" : "mobileMenuCross"}></div>
-          <span className="ml-3">Mobile Menu</span>
+          <span className="ml-3">Main Menu</span>
         </div>
 
         <ul
-          className={`flex flex-col items-center overflow-hidden bg-gradient-to-br from-blue-500 to-blue-900 text-xl text-white ${
+          className={`flex flex-col items-center justify-center overflow-hidden bg-gradient-to-br from-blue-500 to-blue-900 text-xl text-white ${
             !mobileMenu ? "transition-height h-100 pt-3 ease-in" : "h-0 "
           }`}
         >

@@ -1,18 +1,18 @@
 import { useState } from "react";
 import Link from "next/link";
-import { Formik, Field, Form, ErrorMessage } from "formik";
+import { Formik, Form } from "formik";
 
-import { useFormik } from "formik";
 import * as Yup from "yup";
 
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
+import styles from "../../styles/Background.module.css";
+
 import Nav from "../../components/Nav/Nav";
 import Footer from "../../components/Footer/Footer";
 import TextField from "../../components/Register/TextField";
-import { SelectField, Checkbox } from "../../components/Register/TextField";
-
+import { SelectField } from "../../components/Register/TextField";
 // formik data
 import { formikData } from "../../public/data/objectAndArrayData/registerPageData";
 
@@ -25,9 +25,9 @@ const SignupForm = () => {
   return (
     <>
       <Nav />
-      <main className="pt-30">
+      <main className={`pt-10 ${styles.backgroundHome}`}>
         <h2 className="mx-auto mb-5 w-max border-b-2 border-gray-500 py-2 text-2xl font-bold text-gray-600 lg:text-3xl">
-          Be a CRPC Member!
+          Be a Member of CRPC!
         </h2>
         <div className="md:w-4/3  mx-auto w-5/6 rounded-md bg-gray-200 py-5 px-5 lg:w-1/2 lg:text-lg xl:w-1/3">
           <Formik
@@ -73,7 +73,7 @@ const SignupForm = () => {
                   <SelectField
                     label="Gender*"
                     name="gender"
-                    className="ml-2 bg-blue-500 px-2 py-1 text-white"
+                    className="ml-2 rounded border-2 border-black px-2 py-1 font-bold text-gray-800"
                   >
                     <option value="">Select an option</option>
                     <option value="Male">Male</option>
