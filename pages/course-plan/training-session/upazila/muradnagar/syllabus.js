@@ -8,11 +8,6 @@ import TopicsUpazila from "../../../../../components/Syllabus/TopicsUpazila/Topi
 import { sideBarItemUpazilaMuradnagar } from "../../../../../public/data/objectAndArrayData/sideBarUpazila";
 
 const Index = () => {
-  const [mobileMenu, setMobileMenu] = useState(true);
-
-  const handleClick = () => {
-    setMobileMenu(!mobileMenu);
-  };
   return (
     <>
       <Nav />

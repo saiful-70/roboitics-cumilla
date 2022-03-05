@@ -6,12 +6,6 @@ import NavLists from "./NavLists";
 import Image from "next/image";
 
 const Nav = () => {
-  const [mobileMenu, setMobileMenu] = useState(true);
-
-  const handleClick = () => {
-    setMobileMenu(!mobileMenu);
-  };
-
   return (
     <nav className="relative z-50 flex w-full items-center justify-center bg-indigo-900/90 py-2 font-bold text-white shadow-sm shadow-gray-300 lg:justify-center">
       <div className="hidden w-max py-1 lg:block">
