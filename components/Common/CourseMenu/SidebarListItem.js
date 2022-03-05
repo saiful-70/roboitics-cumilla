@@ -13,7 +13,7 @@ const SidebarListItem = ({ item, link }) => {
 
   return (
     <li
-      className="my-2 w-max border-b border-gray-500 py-2 px-5 text-lg font-bold text-gray-400 hover:text-white"
+      className="my-2 w-max border-b border-gray-500 py-2 px-3 text-lg font-bold text-gray-400 hover:text-white"
       onClick={handleClick ? () => handleClick() : null}
     >
       <Link href={link}>

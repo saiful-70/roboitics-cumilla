@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Nav from "../../components/Nav/Nav";
 import Footer from "../../components/Footer/Footer";
 
@@ -19,7 +18,7 @@ const Index = () => {
         <div className={`flex`}>
           <Sidebar />
 
-          <div className=" w-full lg:w-5/6">
+          <div className="w-full lg:w-5/6">
             <Card />
           </div>
         </div>
