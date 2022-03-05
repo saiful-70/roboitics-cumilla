@@ -33,13 +33,13 @@ const Footer = () => {
               <span className="mr-2 rounded-full bg-gray-200 p-1">
                 <FiPhoneCall className="text-sm font-bold text-black" />
               </span>
-              <span>01874280811</span>
+              <span>01733354918</span>
             </p>
             <p className="mb-1 flex text-white">
               <span className="mr-2 rounded-full bg-gray-200 p-1">
                 <GrMail className="text-sm font-bold text-black" />
               </span>
-              <span className="">devjewel01@stud.cou.ac.bd</span>
+              <span className="">acictcomilla@gmail.com</span>
             </p>
             <div className="flex ">
               <a
