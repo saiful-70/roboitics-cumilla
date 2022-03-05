@@ -10,6 +10,12 @@ const sideBarItem = {
 };
 
 const Sidebar = () => {
+  const [mobileMenu, setMobileMenu] = useState(true);
+
+  const handleClick = () => {
+    setMobileMenu(!mobileMenu);
+  };
+
   return (
     <>
       <div

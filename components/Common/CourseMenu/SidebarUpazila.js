@@ -2,6 +2,11 @@ import { useState } from "react";
 import SidebarListItem from "./SidebarListItem";
 
 const SidebarUpazila = ({ sideBarItemUpazila }) => {
+  const [mobileMenu, setMobileMenu] = useState(true);
+
+  const handleClick = () => {
+    setMobileMenu(!mobileMenu);
+  };
   return (
     <>
       <div
