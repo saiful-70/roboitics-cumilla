@@ -51,9 +51,9 @@
         "Loop": ["for loop", "while loop", "break and continue"],
         "Array": ["One dimensional array", "Multidimensional array"],
         "Function": [
-          "C programming function",
-          "User defined function",
-          "Recursive function"
+          "C Programming Function",
+          "User Define Function",
+          "Recursive Function"
         ],
         "String": ""
       }
@@ -62,29 +62,28 @@
   "Electronics": [
     {
       "Basic Electronics": "",
-      "Various electronics component introduction": "",
-      "Logic gate": "",
-      "Practically circuit design": "",
-      "Power source": "",
-      "Android control car circuit": "",
-      "Avoid obstacles car circuit design": ""
+      "Various Electronics Component Introduction": "",
+      "Logic Gate": "",
+      "Practically Circuit Design": "",
+      "Power Source": "",
+      "Android Control Car Circuit": "",
+      "Avoid Obstacles Car Circuit Design": ""
     }
   ],
 
   "Arduino Programming": [
     {
-      "Programming concept": {
-        "How a computer program works?": "",
+      "Programming Concept": {
+        "How a Computer Program Works?": "",
         "Input-Processing-Output": "",
         "Algorithm-Flowchart": ""
       },
-      "Data types": "",
+      "Data Types": "",
       "Variable": "",
       "Operator": "",
       "Bit,Byte": "",
       "Introduction to Arduino UNO": {
         "Pin": "",
-        "psu": "",
         "I/O Ports": "",
         "PWM": ""
       },
@@ -100,11 +99,11 @@
       },
       "Loop": {
         "for loop": "",
-        "While loop": "",
+        "while loop": "",
         "Project on loop statement": ""
       },
       "Sensor": {
-        "introducing sensor ": [
+        "Introducing with Sensor ": [
           "LDR",
           "Ultrasonic",
           "Temperature",
@@ -113,31 +112,31 @@
           "Rain",
           "Pir"
         ],
-        "Read data from sensor": "",
-        "Project with sensor": ""
+        "Read data from Sensor": "",
+        "Project with Sensor": ""
       },
       "Motor Driven": {
         "Clockwise/Anticlockwise Rotation": "",
-        "Controlling motor speed": "",
-        "Project with motor": "",
-        "Serial communication": ["Serial read & write"],
+        "Controlling Motor Speed": "",
+        "Project with Motor": "",
+        "Serial Communication": ["Serial read & write"],
         "Bluetooth Module": ""
       }
     }
   ],
 
-  "Competitive Programing": [
+  "Competitive Programming": [
     {
       "Searching": {
-        "Linear search": "",
-        "Binary search": ""
+        "Linear Search": "",
+        "Binary Search": ""
       },
       "Sorting": {
-        "Bubble sort": "",
-        "Selection sort": "",
-        "Insertion sort": "",
-        "Counting sort": "",
-        "Merge sort": ["Divide and Conquer"]
+        "Bubble Sort": "",
+        "Selection Sort": "",
+        "Insertion Sort": "",
+        "Counting Sort": "",
+        "Merge Sort": ["Divide and Conquer"]
       },
       "Linear DSA": {
         "Arrays": "",
@@ -183,7 +182,7 @@
         "Swap": "",
         "Count": "",
         "Upperbound": "",
-        "Lowebound": "",
+        "Lowerbound": "",
         "Pair": "",
         "String function": ""
       }
