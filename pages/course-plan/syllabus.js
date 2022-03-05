@@ -5,7 +5,7 @@ import styles from "../../styles/Background.module.css";
 import Footer from "../../components/Footer/Footer";
 import Nav from "../../components/Nav/Nav";
 import Sidebar from "../../components/Common/CourseMenu/Sidebar";
-import Topics from "../../components/Syllabus/Topics";
+import Topics from "../../components/Syllabus/Topics/Topics";
 
 const Index = () => {
   return (
