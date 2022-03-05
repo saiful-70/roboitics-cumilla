@@ -5,6 +5,8 @@ import Link from "next/link";
 import NavLists from "./NavLists";
 import Image from "next/image";
 
+import logo from "../../public/images/homepage/logo.jpg";
+
 const Nav = () => {
   return (
     <nav className="relative z-50 flex w-full items-center justify-center bg-indigo-900/90 py-2 font-bold text-white shadow-sm shadow-gray-300 lg:justify-center">
@@ -13,7 +15,7 @@ const Nav = () => {
           <div className="relative h-14 w-14 cursor-pointer">
             <Image
               alt="logo"
-              src="/images/homepage/logo.jpg"
+              src={logo}
               layout="fill"
               className="rounded-full"
             />

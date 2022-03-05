@@ -1,9 +1,13 @@
+import { useState } from "react";
+import { useRouter } from "next/router";
+
 import styles from "../../../../../styles/Background.module.css";
 
 import Footer from "../../../../../components/Footer/Footer";
 import Nav from "../../../../../components/Nav/Nav";
 import SidebarUpazila from "../../../../../components/Common/CourseMenu/SidebarUpazila";
-import TopicsUpazila from "../../../../../components/Syllabus/TopicsUpazila/TopicsUpazila";
+import SidebarListItem from "../../../../../components/Common/CourseMenu/SidebarListItem";
+import TopicsUpazila from "../../../../../components/Syllabus/TopicsUpazila";
 
 import { sideBarItemUpazilaHomna } from "../../../../../public/data/objectAndArrayData/sideBarUpazila";
 
