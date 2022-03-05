@@ -1,5 +1,15 @@
 [
   {
+    "id": "reg_notice",
+    "date": {
+      "day": 5,
+      "month": "Mar",
+      "year": 2022
+    },
+    "heading": "Registration page is active now. Be a member of CRPC! Click Member Registraion button for the form.",
+    "link": ""
+  },
+  {
     "id": "notice1",
     "date": {
       "day": 27,
