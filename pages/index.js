@@ -38,9 +38,7 @@ export default function Home() {
 
       <HeaderStripe />
       <HeaderStripeMobile />
-      <div
-        className={`relative h-64 lg:mx-auto lg:h-80 lg:w-2/3 xl:h-96 xl:w-1/2`}
-      >
+      <div className="relative h-64 lg:mx-auto lg:h-80 lg:w-2/3 xl:h-96 xl:w-1/2">
         <Slider slideImage={slideImage} />
         {/* <div className="absolute left-5 top-0 z-10 hidden h-full w-full -translate-y-10  items-center lg:flex">
           <div className="bg-white/70">
