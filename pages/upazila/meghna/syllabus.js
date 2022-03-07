@@ -15,7 +15,9 @@ const Index = () => {
   return (
     <>
       <Nav />
-      <main className={`relative   ${styles.backgroundCourse}`}>
+      <main
+        className={`commonWidth relative shadow-lg shadow-gray-300 lg:shadow-lg  ${styles.backgroundCourse}`}
+      >
         <div className="flex">
           <SidebarUpazila sideBarItemUpazila={sideBarItemUpazilaMeghna} />
           <div className="mx-auto mt-5 w-full">
