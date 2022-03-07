@@ -8,7 +8,7 @@ const Index = () => {
   const [data, setData] = useState();
   useEffect(() => {
     const fetchTopic = async () => {
-      const response = await fetch("/data/jsonData/notice.json");
+      const response = await fetch("/data/jsonData/notices.json");
       const data = await response.json();
       setData(data);
     };

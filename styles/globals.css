@@ -6,7 +6,9 @@
 }
 
 @layer components {
-  /* @apply container */
+  .commonWidth {
+    @apply lg:mx-auto lg:w-2/3;
+  }
 }
 
 /* Background */

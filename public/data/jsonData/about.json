@@ -175,6 +175,20 @@
         "github": ""
       },
       "speciality": ["UI/UX Designer", "Graphic Designer", "Web Developer"]
+    },
+    {
+      "id": 3,
+      "image": "/images/team_programmers/farhan_ict.jpeg",
+      "name": "Nurul Ahad Farhan ",
+      "department": "DEPT. of ICT, CoU",
+      "phone": "01622525752",
+      "email": "farhanahad3@gmail.com",
+      "social": {
+        "facebook": "",
+        "linkedin": "",
+        "github": ""
+      },
+      "speciality": ["Web Developer", "SEO", "Programmer"]
     }
   ],
   "PROGRAMMING TRAINERS": [

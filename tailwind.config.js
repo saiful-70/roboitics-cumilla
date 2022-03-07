@@ -13,6 +13,7 @@ module.exports = {
         height: "height",
       },
       spacing: {
+        98: "27rem",
         100: "30rem",
         105: "32rem",
         110: "35rem",
@@ -44,5 +45,4 @@ module.exports = {
       "responsive",
     ],
   },
-  plugins: [require("tailwindcss-children")],
 };

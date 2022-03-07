@@ -5,8 +5,7 @@ import NavListItem from "./NavListItem";
 const navItem = {
   HOME: "/",
   "COURSE PLAN": "/course-plan",
-  EVENTS: "/events",
-  NOTICES: "/notices",
+  UPAZILA: "/upazila",
   GALLERY: "/gallery",
   FABLAB: "/fablab",
   "ABOUT US": "/about-us",

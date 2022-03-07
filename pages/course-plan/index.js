@@ -10,7 +10,7 @@ const Index = () => {
   return (
     <>
       <Nav />
-      <main className={`relative ${styles.backgroundCourse}`}>
+      <main className={`relative ${styles.backgroundCourse} commonWidth`}>
         {/* <h1 className="py-20 text-3xl font-bold text-gray-400">
           Comming Soon....
         </h1> */}

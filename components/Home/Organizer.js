@@ -3,13 +3,11 @@ import Image from "next/image";
 
 import { HeadingSecondary } from "../Common/Heading";
 
-import dcOfficeLogo from "../../public/images/homepage/administrator.jpg";
-import couLogo from "../../public/images/homepage/university.jpg";
 import quantaLogo from "../../public/images/homepage/quanta.png";
 
 const Organizer = () => {
   return (
-    <div className="mt-10">
+    <div className="py-10">
       {/* <HeadingSecondary text="আয়োজনে" />
       <div>
         <div className="relative mx-auto mt-6 h-32 w-72">
@@ -48,7 +46,7 @@ const Organizer = () => {
           <div className="relative mx-auto mt-8 h-48 w-48 md:ml-4">
             <Image
               src={quantaLogo}
-              alt="dc office logo"
+              alt="quanta logo"
               layout="fill"
               className={`rounded-full`}
             />

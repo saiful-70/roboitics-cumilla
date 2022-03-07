@@ -13,6 +13,7 @@ import Organizer from "../components/Home/Organizer";
 import Footer from "../components/Footer/Footer";
 import Slider from "../components/Common/Slider";
 import EventsMarquee from "../components/Common/EventsMerquee";
+import NoticesMarquee from "../components/Common/NoticesMarquee";
 import HeaderStripe, {
   HeaderStripeMobile,
 } from "../components/Common/HeaderStripe";
@@ -36,11 +37,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <HeaderStripe />
-      <HeaderStripeMobile />
-      <div className="relative h-64 lg:mx-auto lg:h-80 lg:w-2/3 xl:h-96 xl:w-1/2">
-        <Slider slideImage={slideImage} />
-        {/* <div className="absolute left-5 top-0 z-10 hidden h-full w-full -translate-y-10  items-center lg:flex">
+      <main
+        className={`commonWidth mx-auto lg:bg-white lg:px-5 lg:shadow-md lg:shadow-gray-400`}
+      >
+        <HeaderStripe />
+        <HeaderStripeMobile />
+        <div className="xl:h-98 relative h-64">
+          <Slider slideImage={slideImage} />
+          {/* <div className="absolute left-5 top-0 z-10 hidden h-full w-full -translate-y-10  items-center lg:flex">
           <div className="bg-white/70">
             <div className="relative z-20 h-52 w-52 ">
               <Image
@@ -61,13 +65,10 @@ export default function Home() {
             </h5>
           </div>
         </div> */}
-      </div>
-      <Nav />
+        </div>
+        <Nav />
 
-      <main
-        className={`${styles.backgroundHome} container mx-auto mt-5 h-full w-full px-5`}
-      >
-        <div className="flex w-full flex-col lg:flex-row lg:items-center lg:justify-center">
+        <div className="flex w-full flex-col px-3 lg:flex-row lg:items-center lg:justify-center lg:px-0">
           <VideoMessage />
           {/* <div className="relative h-96 w-full">
             <Image
@@ -78,7 +79,10 @@ export default function Home() {
           </div> */}
           <Card />
         </div>
-        <EventsMarquee />
+        <div className="px-3 lg:px-0">
+          <EventsMarquee />
+          <NoticesMarquee />
+        </div>
         <Messages />
         <Organizer />
       </main>

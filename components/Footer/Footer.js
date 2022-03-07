@@ -9,7 +9,7 @@ import { BsGithub } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <div className="mt-10 w-full bg-indigo-900 py-10 px-3 text-white">
+    <div className=" bg-indigo-900 py-10 px-3 text-white">
       <div className="border-b-2 border-gray-400 pb-5">
         <div className="relative my-2 mx-auto h-32 w-2/3 border-2 shadow-md shadow-gray-600 md:h-40 lg:h-60 lg:w-1/3">
           <Image

@@ -3,7 +3,7 @@ import { HeadingSecondary } from "../Common/Heading";
 
 const VideoMessage = () => {
   return (
-    <div className="lg:w-4/6 lg:px-5">
+    <div className="mt-10 lg:w-4/6 lg:pr-5">
       <HeadingSecondary
         text="মাননীয় প্রধানমন্ত্রীর বক্তব্য"
         extraClasses="lg:w-max"

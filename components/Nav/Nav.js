@@ -12,8 +12,8 @@ const Nav = () => {
     setMobileMenu(!mobileMenu);
   };
   return (
-    <nav className="relative z-50 flex w-full items-center justify-center bg-indigo-900/90 py-2 font-bold text-white shadow-sm shadow-gray-300 lg:justify-center">
-      <div className="hidden w-max py-1 lg:block">
+    <nav className="relative z-50 flex items-center justify-around bg-indigo-900/90 py-1 font-bold text-white shadow-md shadow-gray-300">
+      <div className="mr-3 hidden py-1 lg:block">
         <Link href="/" passHref>
           <div className="relative h-14 w-14 cursor-pointer">
             <Image
@@ -37,7 +37,7 @@ const Nav = () => {
 
         <ul
           className={`flex flex-col items-center justify-center overflow-hidden bg-gradient-to-br from-blue-500 to-blue-900 text-xl text-white ${
-            !mobileMenu ? "transition-height h-100 pt-3 ease-in" : "h-0 "
+            !mobileMenu ? "transition-height h-96 pt-3 ease-in" : "h-0 "
           }`}
         >
           <NavLists />
@@ -45,7 +45,7 @@ const Nav = () => {
       </div>
 
       {/* pc */}
-      <ul className="hidden lg:flex lg:h-full lg:items-center lg:justify-center xl:px-20">
+      <ul className="hidden lg:flex lg:h-full lg:items-center lg:justify-center">
         <NavLists />
       </ul>
     </nav>
