@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const HeaderStripe = () => {
   return (
-    <h2 className="hidden bg-indigo-900 py-1 text-center text-xs font-bold text-white lg:block">
+    <h2 className="commonWidth hidden bg-indigo-900 py-1 text-center text-xs font-bold text-white lg:block">
       CUMILLA ROBOTICS AND PROGRAMMING CLUB
     </h2>
   );

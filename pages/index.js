@@ -37,37 +37,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <HeaderStripe />
+      <HeaderStripeMobile />
+      <div className="commonWidth xl:h-98 relative h-64">
+        <Slider slideImage={slideImage} />
+      </div>
+      <Nav />
+
       <main
         className={`commonWidth mx-auto lg:bg-white lg:px-5 lg:shadow-md lg:shadow-gray-400`}
       >
-        <HeaderStripe />
-        <HeaderStripeMobile />
-        <div className="xl:h-98 relative h-64">
-          <Slider slideImage={slideImage} />
-          {/* <div className="absolute left-5 top-0 z-10 hidden h-full w-full -translate-y-10  items-center lg:flex">
-          <div className="bg-white/70">
-            <div className="relative z-20 h-52 w-52 ">
-              <Image
-                src="/images/crpc-logo.png"
-                alt="crpc logo"
-                layout="fill"
-                className=""
-              />
-            </div>
-          </div>
-          <div className="h-max w-max bg-white/50 font-bold leading-4">
-            <h4 className="text-lg text-indigo-900">CUMILLA</h4>
-            <h3 className="text-2xl ">ROBOTICS &</h3>
-            <h3 className="text-2xl ">PROGRAMMING CLUB</h3>
-            <h4 className="text-lg text-indigo-900">CLUB</h4>
-            <h5 className="bg-orange-600 text-white">
-              District Administration, Cumilla
-            </h5>
-          </div>
-        </div> */}
-        </div>
-        <Nav />
-
         <div className="flex w-full flex-col px-3 lg:flex-row lg:items-center lg:justify-center lg:px-0">
           <VideoMessage />
           {/* <div className="relative h-96 w-full">

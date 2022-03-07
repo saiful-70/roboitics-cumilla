@@ -13,7 +13,7 @@ const Index = () => {
   return (
     <>
       <Nav />
-      <main className={`py-10 ${styles.background1}`}>
+      <main className={`py-10 ${styles.background1} commonWidth `}>
         <h2 className="mx-auto mb-5 w-max border-b-2 border-gray-600 px-10 py-1 text-center text-3xl text-gray-700">
           Gallery
         </h2>

@@ -21,14 +21,14 @@ const Index = () => {
   return (
     <>
       <Nav />
-      <main className="relative bg-gray-200  ">
+      <main className="commonWidth relative  bg-gray-200">
         <div className="md:w-105 mx-auto  w-full rounded bg-white px-5 py-5 shadow-lg shadow-gray-300 lg:w-2/3">
           <Swiper
             modules={[Navigation, Pagination, Autoplay]}
             slidesPerView={1}
             autoplay
             pagination={{ clickable: true }}
-            className="xl:h-100 h-48 shadow-lg shadow-indigo-300 md:h-64 md:w-full lg:h-80 lg:w-5/6"
+            className="h-48 shadow-lg shadow-indigo-300 md:w-full lg:h-72 lg:w-5/6"
             wrapperTag="ul"
           >
             {slideImage.map((item) => (

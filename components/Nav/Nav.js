@@ -12,7 +12,7 @@ const Nav = () => {
     setMobileMenu(!mobileMenu);
   };
   return (
-    <nav className="relative z-50 flex items-center justify-around bg-indigo-900/90 py-1 font-bold text-white shadow-md shadow-gray-300">
+    <nav className="commonWidth relative z-50 flex items-center justify-around bg-indigo-900/90 py-1 font-bold text-white shadow-md shadow-gray-300">
       <div className="mr-3 hidden py-1 lg:block">
         <Link href="/" passHref>
           <div className="relative h-14 w-14 cursor-pointer">

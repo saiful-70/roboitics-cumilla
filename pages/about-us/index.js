@@ -1,16 +1,11 @@
 import { useState, useEffect } from "react";
 import { Tab } from "@headlessui/react";
 
+import styles from "../../styles/Background.module.css";
+
 import Nav from "../../components/Nav/Nav";
 import AboutCard from "../../components/AboutUs/AboutCard";
 import Footer from "../../components/Footer/Footer";
-
-const categories = [
-  "ORGANIZER",
-  "ROBOTICS TEAM",
-  "DEVELOPERS TEAM",
-  "PROGRAMMING TRAINERS",
-];
 
 const Index = () => {
   const [data, setData] = useState();
@@ -23,18 +18,16 @@ const Index = () => {
     fetchTopic();
   }, []);
 
-  const categories = [];
   return (
-    <div className="">
-      <div className="hidden">
-        {data && Object.keys(data).map((item) => categories.push(item))}
-      </div>
+    <>
       <Nav />
-      <main className=" mx-auto lg:container">
-        <div className="w-full px-2 py-10 md:px-10 lg:px-16">
-          <Tab.Group>
-            <Tab.List className="flex rounded-xl bg-gradient-to-br from-blue-500 to-blue-900 p-1">
-              {categories.map((category) => (
+      <main
+        className={`${styles.backgroundHome} commonWidth mx-auto shadow-lg shadow-gray-400`}
+      >
+        <Tab.Group className="w-full py-10 px-2 lg:px-5" as="div">
+          <Tab.List className="flex rounded-xl bg-gradient-to-br from-blue-500 to-blue-900 p-1">
+            {data &&
+              Object.keys(data).map((category) => (
                 <Tab
                   key={category}
                   className={({
@@ -50,40 +43,25 @@ const Index = () => {
                   {category}
                 </Tab>
               ))}
-            </Tab.List>
+          </Tab.List>
 
-            {data && (
-              <Tab.Panels className="mt-2 ">
-                <Tab.Panel className="flex flex-col items-center md:flex-row md:flex-wrap md:items-start md:justify-center">
-                  {data[categories[0]].map((item) => (
+          <Tab.Panels className="mt-2 ">
+            {data &&
+              Object.keys(data).map((category, index) => (
+                <Tab.Panel
+                  key={category}
+                  className="flex flex-col items-center md:flex-row md:flex-wrap md:items-start md:justify-center"
+                >
+                  {data[category].map((item) => (
                     <AboutCard key={item.id} item={item} />
                   ))}
                 </Tab.Panel>
-
-                <Tab.Panel className="flex flex-col items-center md:flex-row md:flex-wrap md:items-start md:justify-center">
-                  {data[categories[1]].map((item) => (
-                    <AboutCard key={item.id} item={item} />
-                  ))}
-                </Tab.Panel>
-
-                <Tab.Panel className="flex flex-col items-center md:flex-row md:flex-wrap md:items-start md:justify-center">
-                  {data[categories[2]].map((item) => (
-                    <AboutCard key={item.id} item={item} />
-                  ))}
-                </Tab.Panel>
-
-                <Tab.Panel className="flex flex-col items-center md:flex-row md:flex-wrap md:items-start md:justify-center">
-                  {data[categories[3]].map((item) => (
-                    <AboutCard key={item.id} item={item} />
-                  ))}
-                </Tab.Panel>
-              </Tab.Panels>
-            )}
-          </Tab.Group>
-        </div>
+              ))}
+          </Tab.Panels>
+        </Tab.Group>
       </main>
       <Footer />
-    </div>
+    </>
   );
 };
 

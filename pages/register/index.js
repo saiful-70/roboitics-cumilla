@@ -25,11 +25,13 @@ const SignupForm = () => {
   return (
     <>
       <Nav />
-      <main className={`pt-10 ${styles.backgroundHome}`}>
+      <main
+        className={`commonWidth py-5 shadow-lg shadow-gray-400 ${styles.backgroundHome}`}
+      >
         <h2 className="mx-auto mb-5 w-max border-b-2 border-gray-500 py-2 text-2xl font-bold text-gray-600 lg:text-3xl">
           Be a Member of CRPC!
         </h2>
-        <div className="md:w-4/3  mx-auto w-5/6 rounded-md bg-gray-200 py-5 px-5 lg:w-1/2 lg:text-lg xl:w-1/3">
+        <div className="md:w-4/3  mx-3 rounded-md bg-gray-200 py-5 px-3 md:mx-auto lg:w-1/2">
           <Formik
             initialValues={formikData.initialValues}
             validationSchema={Yup.object(formikData.validate)}
