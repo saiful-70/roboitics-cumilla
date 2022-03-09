@@ -1,33 +1,11 @@
-import React from "react";
-import { MdPlace } from "react-icons/md";
-import { BsBoxArrowInUpRight } from "react-icons/bs";
-
+import { Tab } from "@headlessui/react";
 import styles from "../../styles/Background.module.css";
 
 import Footer from "../../components/Footer/Footer";
 import Nav from "../../components/Nav/Nav";
-import Sidebar from "../../components/Common/CourseMenu/Sidebar";
-import TraingingCenterList from "../../components/Course/TraingingCenterList";
 
-const trainingCenterList = {
-  "Cumilla Sadar South Upazila": "upazila/cumilla-sadar-south",
-  "Barura Upazila": "upazila/barura",
-  "Cumilla Adarsa Sadar Upazila": "upazila/cumilla-adarsa-sadar",
-  "Chandina Upazila": "upazila/chandina",
-  "Chauddagram Upazila": "upazila/chauddagram",
-  "Daudkandi Upazila": "upazila/daudkandi",
-  "Brahmanpara Upazila": "upazila/brahmanpara",
-  "Homna Upazila": "upazila/homna",
-  "Monohorgonj Upazila": "upazila/monohorgonj",
-  "Laksam Upazila": "upazila/laksam",
-  "Meghna Upazila": "upazila/meghna",
-  "Titas Upazila": "upazila/titas",
-  "Burichong Upazila": "upazila/burichong",
-  "Nangalkot Upazila": "upazila/nangalkot",
-  "Muradnagar Upazila": "upazila/muradnagar",
-  "Lalmai Upazila": "upazila/lalmai",
-  "Debidwar Upazila": "upazila/debidwar",
-};
+import UpazilaLists from "../../components/Upazila/UpazilaLists";
+import Topics from "../../components/Syllabus/Topics/Topics";
 
 const Session = () => {
   return (
@@ -37,31 +15,45 @@ const Session = () => {
         className={`relative ${styles.backgroundCourse} commonWidth px-3 lg:px-0 lg:shadow-lg lg:shadow-gray-400`}
       >
         <div className="py-3 md:mx-auto md:w-5/6 lg:w-2/3">
-          <h3 className="mx-auto mb-5 w-max border-b-2 border-gray-400 px-10 py-2 text-center text-3xl text-gray-700">
-            Upazila Lists
-          </h3>
-          <div>
-            <div className="mx-2 my-2 flex items-center rounded bg-white py-2 pl-3 shadow-md shadow-gray-500/50 md:mx-auto md:w-2/3">
-              <MdPlace className="mx-1 text-lg text-gray-800" />
-              <p className="text-md font-bold text-gray-800 lg:text-lg">
-                The office of Deputy Comissioner, Cumilla
-              </p>
-              <a
-                href="https://www.cumillarobotics.cf/start-course/index.html"
-                target="_blank"
-                rel="noreferrer"
+          <Tab.Group className="w-full py-5 px-2 lg:px-5" as="div">
+            <Tab.List className="mb-5 flex rounded-xl bg-gradient-to-br from-blue-500 to-blue-900 p-1">
+              <Tab
+                className={({
+                  selected,
+                }) => `w-1/2 rounded-lg px-1 py-2 text-sm font-bold text-blue-900
+                  ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2 
+                  ${
+                    selected
+                      ? "bg-white  shadow"
+                      : "text-blue-100 hover:bg-white hover:text-blue-900"
+                  }`}
               >
-                <BsBoxArrowInUpRight className="mx-1 inline cursor-pointer text-lg font-bold text-blue-600" />
-              </a>
-            </div>
-          </div>
-          {Object.keys(trainingCenterList).map((item) => (
-            <TraingingCenterList
-              key={item}
-              item={item}
-              link={trainingCenterList[item]}
-            />
-          ))}
+                <h3>Upazila Lists</h3>
+              </Tab>
+              <Tab
+                className={({
+                  selected,
+                }) => `w-1/2 rounded-lg px-1 py-2 text-sm font-bold text-blue-900
+                  ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2 
+                  ${
+                    selected
+                      ? "bg-white  shadow"
+                      : "text-blue-100 hover:bg-white hover:text-blue-900"
+                  }`}
+              >
+                <h3>Primary Syllabus</h3>
+              </Tab>
+            </Tab.List>
+
+            <Tab.Panels>
+              <Tab.Panel>
+                <UpazilaLists />
+              </Tab.Panel>
+              <Tab.Panel>
+                <Topics dataUrl="/data/jsonData/syllabusUpazila.json" />
+              </Tab.Panel>
+            </Tab.Panels>
+          </Tab.Group>
         </div>
       </main>
       <Footer />

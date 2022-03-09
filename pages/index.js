@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
 
+import { BsFillArrowUpRightCircleFill } from "react-icons/bs";
+
 // Import Home style
 import styles from "../styles/Background.module.css";
 
@@ -17,6 +19,7 @@ import NoticesMarquee from "../components/Common/NoticesMarquee";
 import HeaderStripe, {
   HeaderStripeMobile,
 } from "../components/Common/HeaderStripe";
+import Link from "next/link";
 
 // images for slider
 const slideImage = [
@@ -47,15 +50,17 @@ export default function Home() {
       <main
         className={`commonWidth mx-auto lg:bg-white lg:px-5 lg:shadow-md lg:shadow-gray-400`}
       >
-        <div className="flex w-full flex-col px-3 lg:flex-row lg:items-center lg:justify-center lg:px-0">
+        <div className="mx-8 my-5 motion-safe:animate-pulse lg:mx-auto lg:w-1/2">
+          <Link href="/register">
+            <a className="xl:text-md text-md  flex items-center justify-center rounded-full border-b-0 border-white bg-gradient-to-br from-indigo-500 to-indigo-800 px-5 py-3 font-bold text-white transition-all">
+              Member Registration is going on!
+              <BsFillArrowUpRightCircleFill className="ml-1 text-xl" />
+            </a>
+          </Link>
+        </div>
+
+        <div className="flex w-full flex-col px-3 lg:flex-row  lg:justify-center lg:px-0 lg:pt-5">
           <VideoMessage />
-          {/* <div className="relative h-96 w-full">
-            <Image
-              src="/images/crpc-leaflet.jpg"
-              alt="crpc leaflet"
-              layout="fill"
-            />
-          </div> */}
           <Card />
         </div>
         <div className="px-3 lg:px-0">

@@ -20,11 +20,9 @@ const Index = () => {
           <SidebarUpazila sideBarItemUpazila={sideBarItemUpazilaTitas} />
           <div className="mx-auto mt-5 w-full">
             <h3 className="mx-auto mb-5 w-max border-b-2 border-gray-400 px-10 py-1 text-center text-3xl font-bold text-gray-700">
-              Brahmanpara Upazila
+              Welcome to Titas Upazila
             </h3>
             <div className="mx-auto border-2 border-gray-600 py-5 px-5 text-xl lg:w-2/3">
-              <h4>প্রিয় তিতাসবাসী</h4>
-              <h4>আসসালামু আলাইকুম ,</h4>
               <p className="py-0.5">
                 চতুর্থ শিল্পবিপ্লবে উন্নত বাংলাদেশ বিনির্মাণে ২০৪১ সালের মধ্যে
                 তথ্যপ্রযুক্তিনির্ভর দক্ষ মানবসম্পদ সৃষ্টির গুরুত্ব অনস্বীকার্য,

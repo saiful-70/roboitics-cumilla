@@ -16,7 +16,7 @@ const Index = () => {
         <div className="flex">
           <Sidebar sideBarItem={sideBarItem} />
           <div className="mx-auto mt-5 w-full">
-            <h3 className="mx-auto mb-5 w-max border-b-2 border-gray-400 px-10 py-1 text-center text-3xl text-gray-700">
+            <h3 className="mx-auto mb-5 w-max border-b-2 border-gray-400 px-5 py-1 text-center text-3xl text-gray-700">
               Primary Syllabus
             </h3>
             <Topics dataUrl="/data/jsonData/syllabusMain.json" />

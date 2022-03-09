@@ -34,3 +34,11 @@ export const HeaderStripeMobile = () => {
     </div>
   );
 };
+
+export const HeaderStripeUpazila = ({ upazilaName }) => {
+  return (
+    <h2 className="commonWidth bg-indigo-900 py-1 text-center text-xs font-bold text-white">
+      {upazilaName}
+    </h2>
+  );
+};

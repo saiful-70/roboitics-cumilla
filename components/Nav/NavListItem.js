@@ -18,7 +18,7 @@ const NavListItem = ({ item, link }) => {
     >
       <Link href={link}>
         <a
-          className={`text-md flex items-center border-b-0 border-white px-2 transition-all hover:border-b-4 ${
+          className={`xl:text-md flex items-center border-b-0 border-white px-2 py-2 text-xs transition-all hover:border-b-4 ${
             router.asPath === link ? "bg-white text-blue-900" : ""
           }`}
         >

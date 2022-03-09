@@ -20,7 +20,7 @@ const Topics = ({ dataUrl }) => {
         Object.keys(data).map((item) => (
           <div
             key={item}
-            className="mx-auto mb-5 w-full px-5 sm:px-10 md:w-2/3 xl:w-1/2"
+            className="mx-auto mb-5 w-full px-5 sm:px-10 md:w-2/3 lg:w-3/4"
           >
             <div className="flex w-max items-center justify-center rounded-full border-2 bg-indigo-900 py-1 pl-1 pr-5">
               <ImRadioUnchecked className="mr-1 text-xl text-white" />

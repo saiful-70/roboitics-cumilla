@@ -51,7 +51,7 @@ export const sideBarItemUpazilaCumillaAdarsaSadar = {
   Constitution: "#",
 };
 
-export const sideBarItemUpazilaCumillaSadarSouth = {
+export const navItemUpazilaCumillaSadarSouth = {
   Intro: "/upazila/cumilla-sadar-south",
   Syllabus: "/upazila/cumilla-sadar-south/syllabus",
   "Class Module": "/upazila/cumilla-sadar-south/class-module",

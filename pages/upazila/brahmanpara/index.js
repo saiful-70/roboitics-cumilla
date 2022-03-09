@@ -1,24 +1,22 @@
-import { useState } from "react";
-import { useRouter } from "next/router";
-
 import styles from "../../../styles/Background.module.css";
 
 import Footer from "../../../components/Footer/Footer";
-import Nav from "../../../components/Nav/Nav";
-import SidebarUpazila from "../../../components/Common/CourseMenu/SidebarUpazila";
+import NavUpazila from "../../../components/Nav/NavUpazila";
 
-import { sideBarItemUpazilaBrahmanpara } from "../../../public/data/objectAndArrayData/sideBarUpazila";
+import { navItemUpazilaBrahmanpara } from "../../../public/data/objectAndArrayData/navItemData";
+import { HeaderStripeUpazila } from "../../../components/Common/HeaderStripe";
 
 const Index = () => {
   return (
     <>
-      <Nav />
+      <HeaderStripeUpazila upazilaName="Brahmanpara Upazila" />
+      <NavUpazila navItemUpazila={navItemUpazilaBrahmanpara} />
       <main
-        className={`commonWidth relative shadow-lg shadow-gray-300 lg:shadow-lg  ${styles.backgroundCourse}`}
+        className={`commonWidth relative shadow-lg shadow-gray-300 lg:shadow-lg  ${styles.backgroundCourse} py-20`}
       >
-        <div className="flex">
-          <SidebarUpazila sideBarItemUpazila={sideBarItemUpazilaBrahmanpara} />
-        </div>
+        <a href="http://brahmanpara.comilla.gov.bd/">
+          Know more about brahmanpara
+        </a>
       </main>
       <Footer />
     </>

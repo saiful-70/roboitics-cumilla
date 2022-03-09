@@ -5,11 +5,7 @@ import Link from "next/link";
 import NavLists from "./NavLists";
 import Image from "next/image";
 
-import { navItem } from "../../public/data/objectAndArrayData/navItemData";
-
-const options = ["one", "two", "three"];
-
-const Nav = () => {
+const Nav = ({ navItemUpazila }) => {
   const [mobileMenu, setMobileMenu] = useState(true);
 
   const handleClick = () => {
@@ -44,13 +40,13 @@ const Nav = () => {
             !mobileMenu ? "transition-height h-96 pt-3 ease-in" : "h-0 "
           }`}
         >
-          <NavLists navItem={navItem} />
+          <NavLists navItem={navItemUpazila} />
         </ul>
       </div>
 
       {/* pc */}
       <ul className="hidden lg:flex lg:h-full lg:items-center lg:justify-center">
-        <NavLists navItem={navItem} />
+        <NavLists navItem={navItemUpazila} />
       </ul>
     </nav>
   );

@@ -2,17 +2,9 @@ import React, { useState } from "react";
 import Link from "next/link";
 import NavListItem from "./NavListItem";
 
-const navItem = {
-  HOME: "/",
-  "COURSE PLAN": "/course-plan",
-  UPAZILA: "/upazila",
-  GALLERY: "/gallery",
-  FABLAB: "/fablab",
-  "ABOUT US": "/about-us",
-  "MEMBER REGISTRATION": "/register",
-};
 
-const NavLists = () => {
+
+const NavLists = ({navItem}) => {
   return (
     <>
       {Object.keys(navItem).map((item) => (
