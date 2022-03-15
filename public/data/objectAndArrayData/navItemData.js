@@ -1,5 +1,5 @@
 export const navItem = {
-  // HOME: "/",
+  HOME: "/",
   "COURSE PLAN": "/course-plan",
   UPAZILA: "/upazila",
   GALLERY: "/gallery",
@@ -15,7 +15,6 @@ export const navItemSyllabus = {
 };
 
 export const navItemUpazilaBrahmanpara = {
-  Intro: "/upazila/brahmanpara",
   Trainer:
     "https://drive.google.com/file/d/1DiF2SHvlWmz1Bklf5GAzoZWW8GQzNPIm/view?usp=sharing",
   Trainee:
@@ -26,7 +25,6 @@ export const navItemUpazilaBrahmanpara = {
 };
 
 export const navItemUpazilaBarura = {
-  Intro: "/upazila/barura",
   Trainer: "/upazila/ /trainer",
   Trainee: "/upazila/barura/participant-lists",
   Constitution:
@@ -34,7 +32,6 @@ export const navItemUpazilaBarura = {
 };
 
 export const navItemUpazilaBurichong = {
-  Intro: "/upazila/burichong",
   Trainer: "/upazila/ /trainer",
   Trainee: "/upazila/burichong/participant-lists",
   Constitution:
@@ -42,7 +39,6 @@ export const navItemUpazilaBurichong = {
 };
 
 export const navItemUpazilaChandina = {
-  Intro: "/upazila/chandina",
   Trainer: "/upazila/ /trainer",
   Trainee: "/upazila/chandina/participant-lists",
   Constitution:
@@ -50,7 +46,6 @@ export const navItemUpazilaChandina = {
 };
 
 export const navItemUpazilaChauddagram = {
-  Intro: "/upazila/chauddagram",
   Trainer: "/upazila/ /trainer",
   Trainee: "/upazila/chauddagram/participant-lists",
   Constitution:
@@ -58,7 +53,6 @@ export const navItemUpazilaChauddagram = {
 };
 
 export const navItemUpazilaCumillaAdarsaSadar = {
-  Intro: "/upazila/cumilla-adarsa-sadar",
   Trainer: "/upazila/ /trainer",
   Trainee: "/upazila/cumilla-adarsa-sadar/participant-lists",
   Constitution: "#",
@@ -73,7 +67,6 @@ export const navItemUpazilaCumillaSadarSouth = {
 };
 
 export const navItemUpazilaDaudkandi = {
-  Intro: "/upazila/daudkandi",
   Trainer: "/upazila/ /trainer",
   Trainee: "/upazila/daudkandi/participant-lists",
   Constitution:
@@ -81,7 +74,6 @@ export const navItemUpazilaDaudkandi = {
 };
 
 export const navItemUpazilaDebidwar = {
-  Intro: "/upazila/debidwar",
   Trainer: "/upazila/ /trainer",
   Trainee: "/upazila/debidwar/participant-lists",
   Constitution:
@@ -89,7 +81,6 @@ export const navItemUpazilaDebidwar = {
 };
 
 export const navItemUpazilaHomna = {
-  Intro: "/upazila/homna",
   Trainer: "/upazila/ /trainer",
   Trainee: "/upazila/homna/participant-lists",
   Constitution:
@@ -97,7 +88,6 @@ export const navItemUpazilaHomna = {
 };
 
 export const navItemUpazilaLaksam = {
-  Intro: "/upazila/laksam",
   Trainer: "/upazila/ /trainer",
   Trainee: "/upazila/laksam/participant-lists",
   Constitution:
@@ -105,7 +95,6 @@ export const navItemUpazilaLaksam = {
 };
 
 export const navItemUpazilaLalmai = {
-  Intro: "/upazila/lalmai",
   Trainer: "/upazila/ /trainer",
   Trainee: "/upazila/lalmai/participant-lists",
   Constitution:
@@ -113,7 +102,6 @@ export const navItemUpazilaLalmai = {
 };
 
 export const navItemUpazilaMeghna = {
-  Intro: "/upazila/meghna",
   Trainer: "/upazila/ /trainer",
   Trainee: "/upazila/meghna/participant-lists",
   Constitution:
@@ -121,7 +109,6 @@ export const navItemUpazilaMeghna = {
 };
 
 export const navItemUpazilaMonohorgonj = {
-  Intro: "/upazila/monohorgonj",
   Trainer: "/upazila/ /trainer",
   Trainee: "/upazila/monohorgonj/participant-lists",
   Constitution:
@@ -129,7 +116,6 @@ export const navItemUpazilaMonohorgonj = {
 };
 
 export const navItemUpazilaMuradnagar = {
-  Intro: "/upazila/muradnagar",
   Trainer: "/upazila/ /trainer",
   Trainee: "/upazila/muradnagar/participant-lists",
   Constitution:
@@ -137,7 +123,6 @@ export const navItemUpazilaMuradnagar = {
 };
 
 export const navItemUpazilaNangalkot = {
-  Intro: "/upazila/nangalkot",
   Trainer: "/upazila/ /trainer",
   Trainee: "/upazila/nangalkot/participant-lists",
   Constitution:
@@ -145,9 +130,10 @@ export const navItemUpazilaNangalkot = {
 };
 
 export const navItemUpazilaTitas = {
-  Intro: "/upazila/titas",
-  Trainer: "/upazila/ /trainer",
-  Trainee: "/upazila/titas/participant-lists",
+  Trainer: "#",
+  Trainee: "#",
   Constitution:
     "https://drive.google.com/file/d/1eu5XeW4tLTE8Ko66tEZyTDGnozLupDj5/view?usp=sharing",
+  Registration:
+    "https://docs.google.com/forms/d/e/1FAIpQLSd7dpYbDJOxY0fHWg_ZumMk-o5mictPPPvJSh3RU6dpGGE--A/viewform",
 };

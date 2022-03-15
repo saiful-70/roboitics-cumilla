@@ -9,3 +9,11 @@ export const HeadingSecondary = ({ text, extraClasses }) => {
     </h2>
   );
 };
+
+export const HeadingUpazila = ({ text, extraClasses }) => {
+  return (
+    <h3 className="mx-auto mb-5 w-max border-b-2 border-gray-400 px-10 py-1 text-center text-3xl font-bold text-gray-700">
+      {text}
+    </h3>
+  );
+};

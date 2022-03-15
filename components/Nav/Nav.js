@@ -2,9 +2,9 @@ import { useState } from "react";
 
 import Link from "next/link";
 
-import NavLists from "./NavLists";
 import Image from "next/image";
 
+import NavLists from "./NavLists";
 import { navItem } from "../../public/data/objectAndArrayData/navItemData";
 
 const options = ["one", "two", "three"];
@@ -44,13 +44,17 @@ const Nav = () => {
             !mobileMenu ? "transition-height h-96 pt-3 ease-in" : "h-0 "
           }`}
         >
-          <NavLists navItem={navItem} />
+          {Object.keys(navItem).map((item) => (
+            <NavLists key={item} item={item} link={navItem[item]} />
+          ))}
         </ul>
       </div>
 
       {/* pc */}
       <ul className="hidden lg:flex lg:h-full lg:items-center lg:justify-center">
-        <NavLists navItem={navItem} />
+        {Object.keys(navItem).map((item) => (
+          <NavLists key={item} item={item} link={navItem[item]} />
+        ))}
       </ul>
     </nav>
   );

@@ -104,7 +104,7 @@ const Footer = () => {
         <div className="px-10 pb-3 md:pt-3">
           <h4 className="w-max border-b-2 text-sm font-bold">QUICK LINKS</h4>
           <div className="flex flex-col pt-3 text-sm font-bold text-gray-300">
-            <Link href="/course-plan">
+            <Link href="/register">
               <a className="w-min transition-transform hover:scale-105 hover:underline">
                 Register
               </a>

@@ -2,10 +2,10 @@ import { useState } from "react";
 
 import Link from "next/link";
 
-import NavLists from "./NavLists";
+import { NavListsUpazila } from "./NavLists";
 import Image from "next/image";
 
-const Nav = ({ navItemUpazila }) => {
+const NavUpazila = ({ navItemUpazila }) => {
   const [mobileMenu, setMobileMenu] = useState(true);
 
   const handleClick = () => {
@@ -40,16 +40,24 @@ const Nav = ({ navItemUpazila }) => {
             !mobileMenu ? "transition-height h-96 pt-3 ease-in" : "h-0 "
           }`}
         >
-          <NavLists navItem={navItemUpazila} />
+          {Object.keys(navItemUpazila).map((item) => (
+            <NavListsUpazila
+              key={item}
+              item={item}
+              link={navItemUpazila[item]}
+            />
+          ))}
         </ul>
       </div>
 
       {/* pc */}
       <ul className="hidden lg:flex lg:h-full lg:items-center lg:justify-center">
-        <NavLists navItem={navItemUpazila} />
+        {Object.keys(navItemUpazila).map((item) => (
+          <NavListsUpazila key={item} item={item} link={navItemUpazila[item]} />
+        ))}
       </ul>
     </nav>
   );
 };
 
-export default Nav;
+export default NavUpazila;

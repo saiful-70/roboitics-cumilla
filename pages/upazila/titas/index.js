@@ -1,27 +1,23 @@
-import { useState } from "react";
-import { useRouter } from "next/router";
-
 import styles from "../../../styles/Background.module.css";
 
 import Footer from "../../../components/Footer/Footer";
-import Nav from "../../../components/Nav/Nav";
-import SidebarUpazila from "../../../components/Common/CourseMenu/SidebarUpazila";
+import NavUpazila from "../../../components/Nav/NavUpazila";
 
-import { sideBarItemUpazilaTitas } from "../../../public/data/objectAndArrayData/sideBarUpazila";
+import { navItemUpazilaTitas } from "../../../public/data/objectAndArrayData/navItemData";
+import { HeaderStripeUpazila } from "../../../components/Common/HeaderStripe";
+import { HeadingUpazila } from "../../../components/Common/Heading";
 
 const Index = () => {
   return (
     <>
-      <Nav />
+      <HeaderStripeUpazila upazilaName="Titas Upazila" />
+      <NavUpazila navItemUpazila={navItemUpazilaTitas} />
       <main
-        className={`commonWidth relative shadow-lg shadow-gray-300 lg:shadow-lg  ${styles.backgroundCourse}`}
+        className={`commonWidth relative mb-10 shadow-lg shadow-gray-300 lg:shadow-lg ${styles.backgroundCourse}`}
       >
         <div className="flex">
-          <SidebarUpazila sideBarItemUpazila={sideBarItemUpazilaTitas} />
           <div className="mx-auto mt-5 w-full">
-            <h3 className="mx-auto mb-5 w-max border-b-2 border-gray-400 px-10 py-1 text-center text-3xl font-bold text-gray-700">
-              Welcome to Titas Upazila
-            </h3>
+            <HeadingUpazila text="Welcome to Titas Upazila" />
             <div className="mx-auto border-2 border-gray-600 py-5 px-5 text-xl lg:w-2/3">
               <p className="py-0.5">
                 চতুর্থ শিল্পবিপ্লবে উন্নত বাংলাদেশ বিনির্মাণে ২০৪১ সালের মধ্যে
@@ -46,14 +42,6 @@ const Index = () => {
                 মার্চ, ২০২২ পর্যন্ত নিচের দেয়া লিঙ্ক এর মাধ্যমে রেজিস্ট্রেশন
                 করে প্রশিক্ষণে অংশগ্রহণ করার জন্য অনুরোধ করছি।
               </p>
-              <a
-                href="https://forms.gle/ebTwfLz5PQHcWWTk9"
-                target="_blank"
-                rel="noreferrer"
-                className=" text-blue-500 underline"
-              >
-                Registration Form
-              </a>
               <p className="py-0.5">
                 চতুর্থ শিল্প বিপ্লবে নেতৃত্ব দেবার লক্ষ্যে আমরা তিতাস কে এগিয়ে
                 নিতে চাই।{" "}

@@ -5,6 +5,7 @@ import NavUpazila from "../../../components/Nav/NavUpazila";
 
 import { navItemUpazilaBrahmanpara } from "../../../public/data/objectAndArrayData/navItemData";
 import { HeaderStripeUpazila } from "../../../components/Common/HeaderStripe";
+import { HeadingUpazila } from "../../../components/Common/Heading";
 
 const Index = () => {
   return (
@@ -12,11 +13,9 @@ const Index = () => {
       <HeaderStripeUpazila upazilaName="Brahmanpara Upazila" />
       <NavUpazila navItemUpazila={navItemUpazilaBrahmanpara} />
       <main
-        className={`commonWidth relative shadow-lg shadow-gray-300 lg:shadow-lg  ${styles.backgroundCourse} py-20`}
+        className={`commonWidth relative py-5 shadow-lg shadow-gray-300 lg:shadow-lg ${styles.backgroundCourse}`}
       >
-        <a href="http://brahmanpara.comilla.gov.bd/">
-          Know more about brahmanpara
-        </a>
+        <HeadingUpazila text="Welcome to Brahmanpara Upazila" />
       </main>
       <Footer />
     </>
