@@ -2,10 +2,10 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaTelegramPlane } from "react-icons/fa";
 import { FiPhoneCall } from "react-icons/fi";
 import { GrMail } from "react-icons/gr";
-import { BsGithub } from "react-icons/bs";
+import { BsBoxArrowInUpRight } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -41,27 +41,31 @@ const Footer = () => {
               </span>
               <span className="">acictcomilla@gmail.com</span>
             </p>
-            <div className="flex ">
-              <a
-                href="#"
-                className="rounded-full bg-blue-900 p-1 transition-transform hover:scale-125"
-              >
-                <FaFacebookF className="text-white" />
-              </a>
 
-              <a
-                href="#"
-                className="rounded-full bg-blue-700 p-1 transition-transform hover:scale-125"
-              >
-                <FaLinkedinIn className="text-white" />
-              </a>
-              <a
-                href="#"
-                className="rounded-full p-1 text-white transition-transform hover:scale-125"
-              >
-                <BsGithub className="" />
-              </a>
-            </div>
+            <a
+              href="https://facebook.com/groups/1118663255337090/"
+              target="_blank"
+              rel="noreferrer"
+              className="mb-1 mt-3 flex items-center font-bold text-white hover:underline"
+            >
+              <span className="mr-1 rounded-full bg-black p-2">
+                <FaFacebookF className="" />
+              </span>
+              <span className="text-md mr-1 xl:text-lg">Facebook Group</span>
+              <BsBoxArrowInUpRight />
+            </a>
+            <a
+              href="https://t.me/+NsQhhLHwDE1lYTU1"
+              target="_blank"
+              rel="noreferrer"
+              className="mb-1 mt-1 flex items-center font-bold text-white hover:underline"
+            >
+              <span className="mr-1 rounded-full bg-black p-2">
+                <FaTelegramPlane className="" />
+              </span>
+              <span className="text-md mr-1 xl:text-lg">Telegram Channel</span>
+              <BsBoxArrowInUpRight />
+            </a>
           </div>
         </div>
 

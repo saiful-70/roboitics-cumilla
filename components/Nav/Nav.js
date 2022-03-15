@@ -7,8 +7,6 @@ import Image from "next/image";
 import NavLists from "./NavLists";
 import { navItem } from "../../public/data/objectAndArrayData/navItemData";
 
-const options = ["one", "two", "three"];
-
 const Nav = () => {
   const [mobileMenu, setMobileMenu] = useState(true);
 
