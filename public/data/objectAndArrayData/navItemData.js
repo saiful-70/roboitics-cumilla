@@ -25,106 +25,106 @@ export const navItemUpazilaBrahmanpara = {
 };
 
 export const navItemUpazilaBarura = {
-  Trainer: "/upazila/ /trainer",
-  Trainee: "/upazila/barura/participant-lists",
+  Trainer: "#",
+  Trainee: "#",
   Constitution:
     "https://drive.google.com/file/d/1oc23yL2QgSgSJ9V2AOmsRssR1O8k7DqI/view?usp=sharing",
 };
 
 export const navItemUpazilaBurichong = {
-  Trainer: "/upazila/ /trainer",
-  Trainee: "/upazila/burichong/participant-lists",
+  Trainer: "#",
+  Trainee: "#",
   Constitution:
     "https://drive.google.com/file/d/1zcE9HECB2TdWKC-YZtv6ExUt_UOEP8xF/view?usp=sharing",
 };
 
 export const navItemUpazilaChandina = {
-  Trainer: "/upazila/ /trainer",
-  Trainee: "/upazila/chandina/participant-lists",
+  Trainer: "#",
+  Trainee: "#",
   Constitution:
     "https://drive.google.com/file/d/1xbRhMsf7OZ4PJW1CXDV6cDN_-qQdKshl/view?usp=sharing",
 };
 
 export const navItemUpazilaChauddagram = {
-  Trainer: "/upazila/ /trainer",
-  Trainee: "/upazila/chauddagram/participant-lists",
+  Trainer: "#",
+  Trainee: "#",
   Constitution:
     "https://drive.google.com/file/d/1sjwdpwPuYE_OEMB3emX_NyshrGgZntFb/view?usp=sharing",
 };
 
 export const navItemUpazilaCumillaAdarsaSadar = {
-  Trainer: "/upazila/ /trainer",
-  Trainee: "/upazila/cumilla-adarsa-sadar/participant-lists",
+  Trainer: "#",
+  Trainee: "#",
   Constitution: "#",
 };
 
 export const navItemUpazilaCumillaSadarSouth = {
   "Cumilla Sadar South": "/upazila/cumilla-sadar-south",
-  Trainer: "/upazila/ /trainer",
-  Trainee: "/upazila/cumilla-sadar-south/participant-lists",
+  Trainer: "#",
+  Trainee: "#",
   Constitution:
     "https://drive.google.com/file/d/1LvVIbCVlb-wVJLXV1EVRHbQcbgnFKOBv/view?usp=sharing",
 };
 
 export const navItemUpazilaDaudkandi = {
-  Trainer: "/upazila/ /trainer",
-  Trainee: "/upazila/daudkandi/participant-lists",
+  Trainer: "#",
+  Trainee: "#",
   Constitution:
     "https://drive.google.com/file/d/1oMRtzCanQ_AQ2iRxgWuIRGOxjYmPnQ8G/view?usp=sharing",
 };
 
 export const navItemUpazilaDebidwar = {
-  Trainer: "/upazila/ /trainer",
-  Trainee: "/upazila/debidwar/participant-lists",
+  Trainer: "#",
+  Trainee: "#",
   Constitution:
     "https://drive.google.com/file/d/1W9z0HQAyKvdqrRnn8sP0iNJXVJofwvOV/view?usp=sharing",
 };
 
 export const navItemUpazilaHomna = {
-  Trainer: "/upazila/ /trainer",
-  Trainee: "/upazila/homna/participant-lists",
+  Trainer: "#",
+  Trainee: "#",
   Constitution:
     "https://drive.google.com/file/d/1IIkF493pkMgB6GH2ehnrLCZNAiaX0SW1/view?usp=sharing",
 };
 
 export const navItemUpazilaLaksam = {
-  Trainer: "/upazila/ /trainer",
-  Trainee: "/upazila/laksam/participant-lists",
+  Trainer: "#",
+  Trainee: "#",
   Constitution:
     "https://drive.google.com/file/d/19glAa1Rl2SDCc2dsTOwYCY4Ww9XSDB_1/view?usp=sharing",
 };
 
 export const navItemUpazilaLalmai = {
-  Trainer: "/upazila/ /trainer",
-  Trainee: "/upazila/lalmai/participant-lists",
+  Trainer: "#",
+  Trainee: "#",
   Constitution:
     "https://drive.google.com/file/d/1ZF0Y8UFL56RUxfuzEorBOiLB16NSFkOJ/view?usp=sharing",
 };
 
 export const navItemUpazilaMeghna = {
-  Trainer: "/upazila/ /trainer",
-  Trainee: "/upazila/meghna/participant-lists",
+  Trainer: "#",
+  Trainee: "#",
   Constitution:
     "https://drive.google.com/file/d/1mtiKwEN8eOgfVpjpWyVYXLIJdQV2CbMJ/view?usp=sharing",
 };
 
 export const navItemUpazilaMonohorgonj = {
-  Trainer: "/upazila/ /trainer",
-  Trainee: "/upazila/monohorgonj/participant-lists",
+  Trainer: "#",
+  Trainee: "#",
   Constitution:
     "https://drive.google.com/file/d/16O14s3od0XiKqta00EbmzhP9amtHF6sX/view?usp=sharing",
 };
 
 export const navItemUpazilaMuradnagar = {
-  Trainer: "/upazila/ /trainer",
-  Trainee: "/upazila/muradnagar/participant-lists",
+  Trainer: "#",
+  Trainee: "#",
   Constitution:
     "https://drive.google.com/file/d/1w9pb6c1bWVCttEOVqu8MXhICuCcE2kzk/view?usp=sharing",
 };
 
 export const navItemUpazilaNangalkot = {
-  Trainer: "/upazila/ /trainer",
-  Trainee: "/upazila/nangalkot/participant-lists",
+  Trainer: "#",
+  Trainee: "#",
   Constitution:
     "https://drive.google.com/file/d/1BIQHbFzcOmSLZhZd0QIKjjRoxwOUkFOi/view?usp=sharing",
 };

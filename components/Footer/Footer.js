@@ -135,7 +135,9 @@ const Footer = () => {
       <p className="text-center">
         Made with love by
         <a
-          href="https://github.com/ICT-CoU"
+          target="_blank"
+          rel="noreferrer"
+          href="https://github.com/saiful-70"
           className="text-blue md:text-md text-sm font-bold underline"
         >
           &nbsp;Developers Team

@@ -12,7 +12,7 @@ export const HeadingSecondary = ({ text, extraClasses }) => {
 
 export const HeadingUpazila = ({ text, extraClasses }) => {
   return (
-    <h3 className="mx-auto mb-5 w-max border-b-2 border-gray-400 px-10 py-1 text-center text-3xl font-bold text-gray-700">
+    <h3 className="mx-auto mb-5 border-b-2 border-gray-400 px-10 py-1 text-center text-xl font-bold text-gray-700 lg:w-max lg:text-3xl">
       {text}
     </h3>
   );
