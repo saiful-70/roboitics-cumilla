@@ -1,13 +1,33 @@
 [
   {
-    "id": "reg_notice",
+    "id": "new_batch_notice_1",
     "date": {
-      "day": 5,
+      "day": 21,
       "month": "Mar",
       "year": 2022
     },
-    "heading": "Registration page is active now.",
+    "heading": "নতুন ব্যাচের রেজিস্ট্রেশন শুরু হয়েছে। ক্লাস শুরু ১ই এপ্রিল থেকে।",
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLSdieRAFJB5roHM4eaL3CV-AmhAHBGntdPqf_3BlMmLqw0Xmqg/viewform"
+  },
+  {
+    "id": "third_round_notice_2",
+    "date": {
+      "day": 21,
+      "month": "Mar",
+      "year": 2022
+    },
+    "heading": "থার্ড রাউন্ডের ক্লাস শুরু ২৪/০৩/২০২২",
     "link": ""
+  },
+  {
+    "id": "third_round_notice_1",
+    "date": {
+      "day": 21,
+      "month": "Mar",
+      "year": 2022
+    },
+    "heading": "Third round selection list has been published.",
+    "link": "https://docs.google.com/spreadsheets/d/1HWPxrH5UN16oMyxcY-X956txAFuJg1y1I7lQ3OSuz7c/edit?usp=sharing"
   },
   {
     "id": "notice1",

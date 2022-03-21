@@ -10,7 +10,8 @@ const NoticesMarquee = () => {
     const fetchTopic = async () => {
       const response = await fetch("/data/jsonData/notices.json");
       const data = await response.json();
-      setData(data);
+      // const
+      setData(data.slice(0, 3));
     };
     fetchTopic();
   }, []);

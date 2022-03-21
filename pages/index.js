@@ -42,7 +42,7 @@ export default function Home() {
 
       <HeaderStripe />
       <HeaderStripeMobile />
-      <div className="commonWidth xl:h-98 relative h-64">
+      <div className="commonWidth relative h-64 xl:h-98">
         <Slider slideImage={slideImage} />
       </div>
       <Nav />
@@ -51,12 +51,22 @@ export default function Home() {
         className={`commonWidth mx-auto lg:bg-white lg:px-5 lg:shadow-md lg:shadow-gray-400`}
       >
         <div className="mx-8 my-5 motion-safe:animate-pulse lg:mx-auto lg:w-1/2">
-          <Link href="/register">
+          {/* <Link href="/register">
             <a className="xl:text-md text-md  flex items-center justify-center rounded-full border-b-0 border-white bg-gradient-to-br from-indigo-500 to-indigo-800 px-5 py-3 font-bold text-white transition-all">
               Member Registration is going on!
               <BsFillArrowUpRightCircleFill className="ml-1 text-xl" />
             </a>
-          </Link>
+          </Link> */}
+
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdieRAFJB5roHM4eaL3CV-AmhAHBGntdPqf_3BlMmLqw0Xmqg/viewform"
+            target="_blank"
+            rel="noreferrer"
+            className="xl:text-md text-md  flex items-center justify-center rounded-full border-b-0 border-white bg-gradient-to-br from-indigo-500 to-indigo-800 px-5 py-3 font-bold text-white transition-all"
+          >
+            নতুন ব্যাচের রেজিস্ট্রেশন শুরু হয়েছে।
+            <BsFillArrowUpRightCircleFill className="ml-1 text-xl" />
+          </a>
         </div>
 
         <div className="flex w-full flex-col px-3 lg:flex-row  lg:justify-center lg:px-0 lg:pt-5">
